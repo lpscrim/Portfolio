@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
   </head>
-  <body>
+  <body class="w-full">
     <div id="hero"></div>
-    <button onclick="setTheme('light')" aria-label="Set light theme">
-    light
-    </button>
-    <button onclick="setTheme('dark')" aria-label="Set dark theme">
-    dark
-    </button>
+    <div id="theme-select" class="flex justify-center">
+      <button class='mx-2' onclick="setTheme('light')" aria-label="Set light theme">
+      light
+      </button>
+      <button class='mx-2' onclick="setTheme('dark')" aria-label="Set dark theme">
+      dark
+      </button>
+    </div>
+
     <script type="module" src="/src/hero.ts"></script>
   </body>
 </html>
