@@ -23,12 +23,12 @@ document.querySelector<HTMLDivElement>('#hero')!.innerHTML = `
   const typeElement = document.querySelector<HTMLDivElement>('#typeTest')!;
   const typeOriginal = typeElement.innerHTML;
   const texts = [
-    'School taught Architectural Engineer',
-    'Self taught English Teacher',
-    'Self Taught Chef',
-    'Self taught Photographer',
-    'Self taught Music producer',
-    'Self taught Artist',
+    'Architectural Engineer Graduate',
+    'English Teacher',
+    'Chef de Cuisine',
+    'Photographer',
+    'Music producer',
+    'Artist',
     typeOriginal
   ];
 
