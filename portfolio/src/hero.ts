@@ -1,33 +1,11 @@
-
-document.querySelector<HTMLDivElement>('#hero')!.innerHTML = `
-  <div>
-    <p class="text-2xl font-bold p-50 w-full text-center">
-      Hello, I'm <strong>John Doe</strong>, a software engineer based in New York City.
-    </p>
-
-  </div>
-`
-
-//replace text here with a function that takes the innerHTML from the main doc and animates it plus additional text from here//
-//Lewis Scrimgeour//
-                    //School taught Architectural Engineer//
-                    //Self taught English Teacher//
-                    //Self Taught Chef//
-                    //Self taught Photographer//
-                    //self taught Music producer//
-                    //Self taught Artist//                                   
-// Self taught web developer//
-
-
-
   const typeElement = document.querySelector<HTMLDivElement>('#typeTest')!;
   const typeOriginal = typeElement.innerHTML;
   const texts = [
-    'Architectural Engineer Graduate',
+    'BEng Architectural Engineer',
     'English Teacher',
     'Chef de Cuisine',
     'Photographer',
-    'Music producer',
+    'Music Producer',
     'Artist',
     typeOriginal
   ];
@@ -41,7 +19,7 @@ document.querySelector<HTMLDivElement>('#hero')!.innerHTML = `
         if (i === textArray.length - 1 && callback) {
           setTimeout(callback, 1000); 
         }
-      }, 50 * i);
+      }, 35 * i);
     });
   }
   
@@ -77,4 +55,4 @@ document.querySelector<HTMLDivElement>('#hero')!.innerHTML = `
     next();
   }
   
-  typeSequence(typeElement, texts);
+typeSequence(typeElement, texts);
