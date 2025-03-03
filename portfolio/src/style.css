@@ -12,15 +12,17 @@
 }
 
 :root, :root.light {
-  --text-color: #213547;
+  --text-color: #422f2f;
+  --text-color2: #7c533a;
   --background-color: #eee5c3;
-  --accent-color: #67ff64;
+  --accent-color: #93a6ae;
 }
 
 :root.dark {
-  --text-color: rgba(255, 255, 255, 0.87);
-  --background-color: #242424;
-  --accent-color: #646cff;
+  --text-color: #eac890;
+  --text-color2: #c3a989;
+  --background-color: #28212b;
+  --accent-color: #7b859e;
 }
 
 body {
@@ -52,4 +54,44 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+h2 {
+  font-size: var(--text-6xl);
+  line-height: var(--tw-leading, var(--text-4xl--line-height) );
+}
+h3 {
+  font-size: var(--text-5xl);
+  line-height: var(--tw-leading, var(--text-3xl--line-height) );
+}
+
+@media (width < 80rem ) {
+  h2 {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+  h3 {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+}
+@media (width < 64rem ) {
+  h2 {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+  h3 {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height) );
+  }
+}
+@media (width < 40rem ) {
+  h2 {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+  h3 {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height) );
+  }
 }
