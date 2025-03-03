@@ -13,7 +13,7 @@
 
 :root, :root.light {
   --text-color: #422f2f;
-  --text-color2: #ad6f48;
+  --text-color2: #aa5b2a;
   --background-color: #eee5c3;
   --accent-color: #87c1da;
 }
@@ -121,7 +121,7 @@ h3 {
     line-height: var(--tw-leading, var(--text-3xl--line-height) );
   }
   #heroBackground {
-    height: 52.5%
+    height: 52.7%
   }
 }
 @media (width < 49rem ) {
