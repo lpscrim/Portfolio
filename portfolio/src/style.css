@@ -63,6 +63,9 @@ h3 {
   font-size: var(--text-6xl);
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
 }
+#heroBackground {
+  height: 49%
+}
 
 
 @media (width < 80rem ) {
@@ -74,7 +77,9 @@ h3 {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
-  
+  #heroBackground {
+    height: 51%
+  }
   }
 
 @media (width < 64rem ) {
@@ -86,6 +91,9 @@ h3 {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height) );
   }
+  #heroBackground {
+    height: 52.5%
+  }
 }
 @media (width < 45rem ) {
   h2 {
@@ -95,6 +103,9 @@ h3 {
   h3 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
+  }
+  #heroBackground {
+    height: 54%
   }
 }
 
@@ -106,5 +117,8 @@ h3 {
   h3 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
+  }
+  #heroBackground {
+    height: 55.5%
   }
 }
