@@ -13,7 +13,7 @@
 
 :root, :root.light {
   --text-color: #422f2f;
-  --text-color2: #7c533a;
+  --text-color2: #ad6f48;
   --background-color: #eee5c3;
   --accent-color: #87c1da;
 }
@@ -68,6 +68,21 @@ h3 {
 }
 
 
+@media (width < 100rem ) {
+  h2 {
+    font-size: var(--text-7xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+  h3 {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+  #heroBackground {
+    height: 49%
+  }
+  }
+
+
 @media (width < 80rem ) {
   h2 {
     font-size: var(--text-6xl);
@@ -95,7 +110,7 @@ h3 {
     height: 52.5%
   }
 }
-@media (width < 45rem ) {
+@media (width < 49rem ) {
   h2 {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
@@ -109,7 +124,7 @@ h3 {
   }
 }
 
-@media (width < 35rem ) {
+@media (width < 36rem ) {
   h2 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
