@@ -15,14 +15,14 @@
   --text-color: #422f2f;
   --text-color2: #7c533a;
   --background-color: #eee5c3;
-  --accent-color: #93a6ae;
+  --accent-color: #87c1da;
 }
 
 :root.dark {
   --text-color: #eac890;
   --text-color2: #c3a989;
   --background-color: #28212b;
-  --accent-color: #7b859e;
+  --accent-color: #7c86a0;
 }
 
 body {
@@ -46,14 +46,13 @@ button {
   background-color: var(--accent-color);
   color: var(--text-color);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: filter 0.2s;
 }
 button:hover {
-  border-color: #ffff64;
+  filter: brightness(110%);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+button:active {
+  filter: brightness(90%);
 }
 
 h2 {
