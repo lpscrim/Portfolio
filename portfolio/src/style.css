@@ -63,7 +63,21 @@ h3 {
   font-size: var(--text-6xl);
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
 }
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+}
+
+
 #heroBackground {
+  animation: slideUp 1s ease-out forwards;
   height: 49%
 }
 
