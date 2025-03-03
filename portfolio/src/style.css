@@ -86,7 +86,7 @@ h3 {
 }
 @media (width < 40rem ) {
   h2 {
-    font-size: var(--text-4xl);
+    font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
   h3 {

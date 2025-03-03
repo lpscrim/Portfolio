@@ -1,7 +1,7 @@
   const typeElement = document.querySelector<HTMLDivElement>('#typeTest')!;
   const typeOriginal = typeElement.innerHTML;
   const texts = [
-    'BEng Architectural Engineer',
+    'Architectural Engineer',
     'English Teacher',
     'Chef de Cuisine',
     'Photographer',
