@@ -25,7 +25,7 @@ const applyStoredTheme = () => {
   }
 };
 
-// Apply the stored theme when the page loads
+
 window.addEventListener('load', applyStoredTheme);
 
 (window as any).setTheme = setTheme;
