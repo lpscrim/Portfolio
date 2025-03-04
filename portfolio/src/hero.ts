@@ -56,3 +56,11 @@
   }
   
 typeSequence(typeElement, texts);
+
+const about = document.querySelector("#about");
+const topOfMain = about?.getBoundingClientRect().top;
+const scrollButton = document.querySelector("#scrollButton");
+
+scrollButton?.addEventListener("click", function () {
+  window.scroll({ top: topOfMain, behavior: "smooth" });
+})

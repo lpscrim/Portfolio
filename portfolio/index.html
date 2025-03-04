@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/animation.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Vanilla</title>
   </head>
@@ -40,14 +41,14 @@
         </ul>
       </nav>
     </header>
-    <div id="home">
+    <div id="home" class="h-screen">
       <div
         id="heroBackground"
         class="w-full bottom-0 -z-10 bg-(--accent-color) absolute"
       ></div>
       <div
         id="hero"
-        class="flex font-bold w-full text-center h-screen items-center justify-center relative"
+        class="flex font-bold w-full text-center h-full items-center justify-center relative"
       >
         <div
           id="textHero"
@@ -58,15 +59,19 @@
           Front End Web Developer
           </h2><h2 id="fake" class="px-0">|</h2>
         </div>
+        <button id="scrollButton" class="py-2 z-20 bottom-0 absolute">
+          <span class="arrow">↓</span >Scroll<span class="arrow">↓</span>
+        </button>
       </div>
+      
     </div>
     <div id="about" class="relative z-1 h-screen p-10 bg-(--background-color)">
       <p>This is the about section</p>
-      <a href="#home">Home</a>
+
     </div>
-    <div id="Projects" class="relative z-1 h-screen p-10 bg-(--background-color)">
+    <div id="projects" class="relative z-1 h-screen p-10 bg-(--background-color)">
       <p>This is the projects section</p>
-      <a href="#home">Home</a>
+
     </div>
     <div id="theme-select" class="flex justify-center">
     
@@ -75,5 +80,10 @@
     <script type="module" src="/src/hero.ts"></script>
     <script type="module" src="/src/theme.ts"></script>
     <script type="module" src="/src/navScroll.ts"></script>
+    <script>
+      window.addEventListener('beforeunload', () => {
+        window.scrollTo(0, 0);
+      });
+    </script>
   </body>
 </html>

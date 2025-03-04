@@ -61,40 +61,6 @@ a:hover {
   filter: brightness(90%);
 }
 
-header {
-  transition: top 500ms ease-in-out;
-}
-header.scroll-up {
-  visibility: visible;
-  top: 0;
-}
-header.scroll-down {
-  top: -100%;
-}
-
-@keyframes slideUp {
-  from {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 0.6;
-  }
-}
-
-#fake {
-  display: inline-block;
-  color: var(--text-color2);
-  animation: blink 0.6s steps(2, start) infinite;
-}
-
-@keyframes blink {
-  to {
-    visibility: hidden;
-  }
-}
-
 h2 {
   font-size: var(--text-7xl);
   line-height: var(--tw-leading, var(--text-4xl--line-height) );
@@ -105,10 +71,8 @@ h3 {
 }
 
 #heroBackground {
-  animation: slideUp 1s ease-out forwards;
   height: 49.2%;
 }
-
 
 @media (width < 100rem ) {
   h2 {
