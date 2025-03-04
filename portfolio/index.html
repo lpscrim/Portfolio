@@ -5,30 +5,46 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="/src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Portfolio Vanilla</title>
   </head>
   <body class="w-full">
-    <header class="flex flex-row py-2 w-full px-4 fixed">
-      <span class="flex text-xl bold text-(--text-color2)">Lewis Scrimgeour</span>
-      <nav id="navbar" class="text-lg flex justify-end ml-auto"></nav>
+    <header class="flex flex-row py-2 w-full px-4 z-999 fixed">
+      <span class="flex text-xl font-bold text-(--text-color2)"
+        >Lewis Scrimgeour</span
+      >
+      <nav id="navbar" class="text-lg flex justify-end ml-auto">
         <ul class="flex flex-row font-bold space-x-8">
           <li><a href="#home">Home</a></li>
           <li><a href="#news">About</a></li>
           <li><a href="#contact">Projects</a></li>
           <li><a href="#about">Contact</a></li>
-      </ul>
+        </ul>
       </nav>
     </header>
-    <div>
-      <div id="heroBackground" class="w-full bottom-0 -z-1 bg-(--accent-color)  absolute"></div>
-      <div id="hero" class="flex font-bold w-full text-center h-screen items-center justify-center relative">
-        <div id="textHero" class="translate-x-[-15%] min-h-42 justify-items-start">
-          <h2 id="name" >Lewis Scrimgeour&emsp;&emsp;&emsp;&emsp;</h2>
-          <h2 id="typeTest" class="text-(--text-color2)" >Front End Web Developer</h2>
-        </div>    
+    <div id="home">
+      <div
+        id="heroBackground"
+        class="w-full bottom-0 -z-1 bg-(--accent-color) absolute"
+      ></div>
+      <div
+        id="hero"
+        class="flex font-bold w-full text-center h-screen items-center justify-center relative"
+      >
+        <div
+          id="textHero"
+          class="translate-x-[-15%] min-h-42 justify-items-start"
+        >
+          <h2 id="name">Lewis Scrimgeour&emsp;&emsp;&emsp;&emsp;</h2>
+          <h2 id="typeTest" class="text-(--text-color2)">
+            Front End Web Developer
+          </h2>
+        </div>
+      </div>
     </div>
-  </div>
-    
+    <div id="about">
+      <p>This is the about section</p>
+      <a href="#home">Home</a>
+    </div>
     <div id="theme-select" class="flex justify-center">
       <button
         class="mx-2 font-extrabold"
