@@ -1,5 +1,5 @@
   const typeElement = document.querySelector<HTMLDivElement>('#typeTest')!;
-  const typeOriginal = typeElement.innerHTML;
+  const typeOriginal = typeElement.innerHTML.trim();
   const texts = [
     'Architectural Engineer',
     'English Teacher',
