@@ -27,6 +27,22 @@
   --accent-color: #7c86a0;
 }
 
+:root.black {
+  --text-color: #FFFFFF;
+  --text-color2: #d4d4d4;
+  --background-color: #141414;
+  --button-color: #D3D3D3;
+  --accent-color: #A9A9A9;
+}
+
+:root.white {
+  --text-color: #000000;
+  --text-color2: #707070;
+  --background-color: #eeeeee;
+  --button-color: #D3D3D3;
+  --accent-color: #c5c5c5;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
