@@ -1,16 +1,31 @@
-  export const  setTheme = () => {
-  var root = document.getElementsByTagName('html')[0];
-  if (root.className == null) {
-    root.className = 'light'
-  } else if (root.className === 'light') {
-    root.className = 'dark'
+export const setTheme = () => {
+  const root = document.getElementsByTagName('html')[0];
+  let newTheme = 'light';
+
+  if (root.className === 'light') {
+    newTheme = 'dark';
   } else if (root.className === 'dark') {
-    root.className = 'black'
+    newTheme = 'black';
   } else if (root.className === 'black') {
-    root.className = 'white'
-  }  else {
-    root.className = 'light'
+    newTheme = 'white';
+  } else if (root.className === 'white') {
+    newTheme = 'light';
   }
-}
+
+  root.className = newTheme;
+  localStorage.setItem('theme', newTheme);
+};
+
+const applyStoredTheme = () => {
+  const storedTheme = localStorage.getItem('theme');
+  if (storedTheme) {
+    document.getElementsByTagName('html')[0].className = storedTheme;
+  } else {
+    document.getElementsByTagName('html')[0].className = 'light';
+  }
+};
+
+// Apply the stored theme when the page loads
+window.addEventListener('load', applyStoredTheme);
 
 (window as any).setTheme = setTheme;
