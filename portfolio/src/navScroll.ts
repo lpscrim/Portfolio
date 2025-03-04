@@ -22,12 +22,20 @@ const isScrollingDown = () => {
 };
 
 const handleNavScroll = () => {
+  const aboutSection = document.getElementById("about");
+  const aboutSectionTop = aboutSection?.offsetTop || 0;
+
   if (isScrollingDown() && !nav?.contains(document.activeElement)) {
     nav?.classList.add("scroll-down");
     nav?.classList.remove("scroll-up");
   } else {
     nav?.classList.add("scroll-up");
     nav?.classList.remove("scroll-down");
+  }
+
+  if (window.scrollY < aboutSectionTop) {
+    nav?.classList.add("scroll-down");
+    nav?.classList.remove("scroll-up");
   }
 };
 
@@ -50,4 +58,3 @@ window.addEventListener("scroll", () => {
     throttle(handleNavScroll, 250);
   }
 });
-
