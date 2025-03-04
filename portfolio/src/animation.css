@@ -30,10 +30,14 @@ header {
     
   #scrollButton {
     animation: fade-in-bottom 0.5s ease-in-out 50ms both;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    font: inherit;
   }
 
- #scrollButton:hover .arrow,
- #scrollButton:focus .arrow {
+  #scrollButton:hover .arrow,
+  #scrollButton:focus .arrow {
     margin: 0.2rem;
     animation: bounce-top 1.5s ease-in-out infinite both;
  }
