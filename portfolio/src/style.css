@@ -15,13 +15,15 @@
   --text-color: #422f2f;
   --text-color2: #aa5b2a;
   --background-color: #eee5c3;
-  --accent-color: #87c1da;
+  --button-color: #87c1da;
+  --accent-color: #daaf87
 }
 
 :root.dark {
   --text-color: #eac890;
-  --text-color2: #c3a989;
+  --text-color2: #e2a355;
   --background-color: #28212b;
+  --button-color: #c06e48;
   --accent-color: #7c86a0;
 }
 
@@ -36,6 +38,8 @@ h1 {
   line-height: 1.1;
 }
 
+
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -43,7 +47,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--accent-color);
+  background-color: var(--button-color);
   color: var(--text-color);
   cursor: pointer;
   transition: filter 0.2s;
@@ -64,6 +68,10 @@ h3 {
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
 }
 
+.justify-content-end {
+  justify-content: flex-end;
+}
+
 @keyframes slideUp {
   from {
     transform: translateY(100%);
@@ -78,7 +86,7 @@ h3 {
 
 #heroBackground {
   animation: slideUp 1s ease-out forwards;
-  height: 49%
+  height: 49%;
 }
 
 
