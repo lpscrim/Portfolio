@@ -65,7 +65,39 @@
       </div>
       
     </div>
-    <div id="about" class="relative z-1 h-screen p-10 bg-(--background-color)">
+    <div id="about" class="w-full relative z-1 h-screen bg-(--background-color)">
+      <header class="flex flex-row py-2 w-full px-4 z-999 relative top-0">
+        <span class="hidden text-xl font-bold text-(--text-color2) sm:flex"
+          >Lewis Scrimgeour</span
+        >
+        <nav id="navbar" class="text-lg flex justify-end ml-auto">
+          <ul class="flex flex-row font-bold space-x-6 sm:space-x-8">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle" class="text-(--text-color2) hover:text-(--accent-color)" onclick="setTheme()">
+              <svg
+                class="mt-1 w-5 h-5 "
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="none"
+                viewBox="0 0 22 22"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  d="M20 6H10m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4m16 6h-2m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4m16 6H10m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4"
+                />
+              </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <p>This is the about section</p>
 
     </div>

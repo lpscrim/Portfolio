@@ -37,6 +37,7 @@ const handleNavScroll = () => {
     nav?.classList.add("scroll-down");
     nav?.classList.remove("scroll-up");
   }
+  
 };
 
 let throttleTimer: boolean;
