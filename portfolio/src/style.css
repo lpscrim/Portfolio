@@ -61,17 +61,15 @@ a:hover {
   filter: brightness(90%);
 }
 
-h2 {
-  font-size: var(--text-7xl);
-  line-height: var(--tw-leading, var(--text-4xl--line-height) );
+header {
+  transition: top 500ms ease-in-out;
 }
-h3 {
-  font-size: var(--text-6xl);
-  line-height: var(--tw-leading, var(--text-3xl--line-height) );
+header.scroll-up {
+  visibility: visible;
+  top: 0;
 }
-
-.justify-content-end {
-  justify-content: flex-end;
+header.scroll-down {
+  top: -100%;
 }
 
 @keyframes slideUp {
@@ -97,9 +95,18 @@ h3 {
   }
 }
 
+h2 {
+  font-size: var(--text-7xl);
+  line-height: var(--tw-leading, var(--text-4xl--line-height) );
+}
+h3 {
+  font-size: var(--text-6xl);
+  line-height: var(--tw-leading, var(--text-3xl--line-height) );
+}
+
 #heroBackground {
   animation: slideUp 1s ease-out forwards;
-  height: 49%;
+  height: 49.2%;
 }
 
 
@@ -132,7 +139,7 @@ h3 {
   }
   }
 
-@media (width < 64rem ) {
+@media (width < 66rem ) {
   h2 {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
@@ -145,7 +152,7 @@ h3 {
     height: 52.7%
   }
 }
-@media (width < 49rem ) {
+@media (width < 53rem ) {
   h2 {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
@@ -155,21 +162,35 @@ h3 {
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
   #heroBackground {
-    height: 54%
+    height: 54.3%
   }
 }
 
-@media (width < 36rem ) {
+@media (width < 40rem ) {
   h2 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
   h3 {
-    font-size: var(--text-3xl);
+    font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
   #heroBackground {
-    height: 55.5%
+    height: 55.3%
+  }
+}
+
+@media (width < 36rem ) {
+  h2 {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+  h3 {
+    font-size: var(--text-1xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height) );
+  }
+  #heroBackground {
+    height: 55.9%
   }
 }
 

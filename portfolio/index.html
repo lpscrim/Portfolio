@@ -8,7 +8,7 @@
     <title>Portfolio Vanilla</title>
   </head>
   <body class="w-full">
-    <header class="flex flex-row py-2 w-full px-4 z-999 fixed">
+    <header class="invisible flex flex-row py-2 w-full px-4 z-999 fixed top-0">
       <span class="hidden text-xl font-bold text-(--text-color2) sm:flex"
         >Lewis Scrimgeour</span
       >
@@ -18,9 +18,9 @@
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><button id="theme-toggle" onclick="setTheme()">
+          <li><button id="theme-toggle" class="text-(--text-color2) hover:text-(--accent-color)" onclick="setTheme()">
             <svg
-              class="mt-1 w-5 h-5 hover:text-(--accent-color)"
+              class="mt-1 w-5 h-5 "
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -70,5 +70,6 @@
 
     <script type="module" src="/src/hero.ts"></script>
     <script type="module" src="/src/theme.ts"></script>
+    <script type="module" src="/src/navScroll.ts"></script>
   </body>
 </html>
