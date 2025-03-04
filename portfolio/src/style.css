@@ -74,19 +74,9 @@ h3 {
   height: 49.2%;
 }
 
-@media (width < 100rem ) {
-  h2 {
-    font-size: var(--text-7xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height) );
-  }
-  h3 {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height) );
-  }
-  #heroBackground {
-    height: 49%
-  }
-  }
+#scrollButton {
+  font-size: var(--text-xl);
+}
 
 
 @media (width < 80rem ) {
@@ -101,6 +91,7 @@ h3 {
   #heroBackground {
     height: 51%
   }
+  
   }
 
 @media (width < 66rem ) {
@@ -115,6 +106,9 @@ h3 {
   #heroBackground {
     height: 52.7%
   }
+  #scrollButton {
+    font-size: var(--text-lg);
+  }  
 }
 @media (width < 53rem ) {
   h2 {
@@ -127,6 +121,9 @@ h3 {
   }
   #heroBackground {
     height: 54.3%
+  }
+  #scrollButton {
+    font-size: var(--text-md);
   }
 }
 
