@@ -22,7 +22,7 @@ const isScrollingDown = () => {
 };
 
 const handleNavScroll = () => {
-  const aboutSection = document.getElementById("about");
+  const aboutSection = document.getElementById("aboutSection");
   const aboutSectionTop = aboutSection?.offsetTop || 0;
 
   if (isScrollingDown() && !nav?.contains(document.activeElement)) {
