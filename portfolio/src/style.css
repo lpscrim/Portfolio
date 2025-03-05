@@ -54,8 +54,12 @@ h1 {
   line-height: 1.1;
 }
 
-a:hover {
+header a:hover {
   color: var(--text-color2);
+}
+
+footer a:hover {
+  color: var(--background-color);
 }
 
 h2 {
