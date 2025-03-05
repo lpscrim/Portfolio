@@ -63,7 +63,7 @@ h2 {
   line-height: var(--tw-leading, var(--text-4xl--line-height) );
 }
 h3 {
-  font-size: var(--text-6xl);
+  font-size: var(--text-5xl);
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
 }
 
@@ -101,6 +101,9 @@ h3 {
   font-size: var(--text-xl);
 }
 
+#container {
+  max-width: 90rem;
+}
 
 @media (width < 80rem ) {
   h2 {
@@ -114,7 +117,7 @@ h3 {
   #heroBackground {
     height: 51%
   }
-  
+ 
   }
 
 @media (width < 66rem ) {

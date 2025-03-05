@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="/src/style.css" />
     <link rel="stylesheet" href="/src/animation.css" />
@@ -16,7 +17,7 @@
     <title>Portfolio Vanilla</title>
   </head>
   <body class="w-full">
-    <header class="invisible flex flex-row py-2 w-full px-4 z-999 fixed top-0">
+    <header class="invisible flex flex-row w-full px-12 py-6 z-999 bg-inherit fixed top-0">
       <span class="hidden text-xl font-bold text-(--text-color2) sm:flex"
         >Lewis Scrimgeour</span
       >
@@ -88,7 +89,7 @@
           class="w-full relative z-1 h-screen bg-(--background-color)"
         >
           <header
-            class="flex flex-row py-2 w-full px-4 z-999 relative top-0 bg-(--background-color)"
+            class="flex flex-row w-full px-12 py-6 z-999 relative top-0 bg-(--background-color)"
           >
             <span class="hidden text-xl font-bold text-(--text-color2) sm:flex"
               >Lewis Scrimgeour</span
@@ -126,8 +127,8 @@
               </ul>
             </nav>
           </header>
-          <div class="flex flex-col items-center justify-center h-full">
-            <h2>About Me</h2>
+          <div id="container" class="flex flex-col items-center justify-center h-full mx-auto">
+            <h3>About Me</h3>
             <p class="text-lg">
               I am a Front End Web Developer with a passion for creating beautiful
               and functional websites. I have experience with HTML, CSS,
