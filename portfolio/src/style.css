@@ -13,7 +13,7 @@
 
 :root, :root.light {
   --text-color: #422f2f;
-  --text-color2: #aa5b2a;
+  --text-color2: #9b5326;
   --background-color: #eee5c3;
   --button-color: #87c1da;
   --accent-color: #daaf87
@@ -37,7 +37,7 @@
 
 :root.white {
   --text-color: #000000;
-  --text-color2: #707070;
+  --text-color2: #636363;
   --background-color: #eeeeee;
   --button-color: #D3D3D3;
   --accent-color: #c5c5c5;
@@ -56,25 +56,6 @@ h1 {
 
 a:hover {
   color: var(--accent-color);
-}
-
-.button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: var(--button-color);
-  color: var(--text-color);
-  cursor: pointer;
-  transition: filter 0.2s;
-}
-.button:hover {
-  filter: brightness(110%);
-}
-.button:active {
-  filter: brightness(90%);
 }
 
 h2 {
