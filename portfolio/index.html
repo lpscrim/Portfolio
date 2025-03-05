@@ -17,7 +17,7 @@
     <title>Portfolio Vanilla</title>
   </head>
   <body class="w-full">
-    <header class="invisible flex flex-row w-full px-12 py-6 z-999 bg-inherit fixed top-0">
+    <header class="invisible flex flex-row w-full px-12 pt-6 pb-2 z-999 bg-inherit fixed top-0">
       <span class="hidden text-xl font-bold text-(--text-color2) sm:flex"
         >Lewis Scrimgeour</span
       >
@@ -30,11 +30,11 @@
           <li>
             <button
               id="theme-toggle"
-              class="text-(--text-color2) hover:text-(--accent-color)"
+              class="text-(--text-color2) hover:text-(--text-color)"
               onclick="setTheme()"
             >
               <svg
-                class="mt-1 w-5 h-5"
+                class="w-5 h-5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -67,8 +67,8 @@
           id="textHero"
           class="translate-x-[-15%] min-h-42 justify-items-start mt-6"
         >
-          <h2 id="name">Lewis Scrimgeour&emsp;&emsp;&emsp;&emsp;&emsp;</h2>
-          <h2 id="typeTest" class="inline text-(--text-color2) px-0">
+          <h2 id="name" class="text-(--text-color2)">Lewis Scrimgeour&emsp;&emsp;&emsp;&emsp;&emsp;</h2>
+          <h2 id="typeTest" class="inline text-(--text-color) px-0">
             Front End Web Developer
           </h2>
           <h2 id="fake" class="px-0 font-light">|</h2>
@@ -83,7 +83,7 @@
       </div>
     </div>
     <main>
-      <section class="bg-(--accent-color)/70 bg-[url(/public/absurdity.png)]">
+      <section class="bg-(--accent-color) bg-[url(/public/absurdity.png)]">
         <div
           id="about"
           class="w-full relative z-1 h-screen bg-(--background-color)"
@@ -103,11 +103,11 @@
                 <li>
                   <button
                     id="theme-toggle"
-                    class="text-(--text-color2) hover:text-(--accent-color)"
+                    class="text-(--text-color2) hover:text-(--text-color)"
                     onclick="setTheme()"
                   >
                     <svg
-                      class="mt-1 w-5 h-5"
+                      class="w-5 h-5"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
@@ -141,12 +141,12 @@
       <section>
         <div
           id="projects"
-          class="relative z-1 h-screen p-10 bg-(--accent-color)/70 bg-[url(/public/absurdity.png)]"
+          class="relative z-1 h-screen p-10 bg-(--accent-color) bg-[url(/public/absurdity.png)]"
         >
           <p>This is the projects section</p>
         </div>
       </section> 
-      <section class="bg-(--accent-color)/70 bg-[url(/public/absurdity.png)]">
+      <section class="bg-(--accent-color) bg-[url(/public/absurdity.png)]">
         <div
           id="contact"
           class="relative z-1 h-screen p-10 bg-(--background-color)"
@@ -155,7 +155,7 @@
         </div>
       </section>
     </main>
-    <footer class="bg-(--accent-color)/70 bg-[url(/public/absurdity.png)] flex flex-row py-2 w-full px-4 z-999 bottom-0">
+    <footer class="bg-(--accent-color) bg-[url(/public/absurdity.png)] flex flex-row py-2 w-full px-4 z-999 bottom-0">
       <button
         id="theme-toggle"
         class="text-(--text-color2) hover:text-(--accent-color)"
