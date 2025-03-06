@@ -37,10 +37,18 @@
 
 :root.white {
   --text-color: #000000;
-  --text-color2: #636363;
-  --background-color: #eeeeee;
+  --text-color2: #616161;
+  --background-color: #fffefe;
   --button-color: #D3D3D3;
   --accent-color: #c7c6c6;
+}
+
+:root.blue {
+  --text-color: #024157;
+  --text-color2: #ffffff;
+  --background-color: #a0d6e4;
+  --button-color: #D3D3D3;
+  --accent-color: #52adc9;
 }
 
 body {

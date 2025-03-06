@@ -5,12 +5,14 @@ export const setTheme = () => {
   if (root.className === 'light') {
     newTheme = 'dark';
   } else if (root.className === 'dark') {
+    newTheme = 'blue';
+  } else if (root.className === 'blue') {
     newTheme = 'black';
   } else if (root.className === 'black') {
     newTheme = 'white';
   } else if (root.className === 'white') {
     newTheme = 'light';
-  }
+  } 
 
   root.className = newTheme;
   localStorage.setItem('theme', newTheme);
