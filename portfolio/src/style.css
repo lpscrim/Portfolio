@@ -4,7 +4,6 @@
   font-family:  "Lato", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -75,7 +74,7 @@ h2 {
   line-height: var(--tw-leading, var(--text-4xl--line-height) );
 }
 h3 {
-  font-size: var(--text-5xl);
+  font-size: var(--text-4xl);
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
 }
 
@@ -114,12 +113,12 @@ h3 {
 }
 
 #container {
-  max-width: 90rem;
+  max-width: 80rem;
 }
 
-@media (width < 120rem ){
+@media (width < 100rem ){
   #container {
-    max-width: 72rem;
+    max-width: 70rem;
   }
 } 
 
@@ -129,7 +128,7 @@ h3 {
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
   h3 {
-    font-size: var(--text-5xl);
+    font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
   #heroBackground {
@@ -146,7 +145,7 @@ h3 {
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
   h3 {
-    font-size: var(--text-4xl);
+    font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height) );
   }
   #heroBackground {
@@ -179,7 +178,7 @@ h3 {
   }
 }
 
-@media (width < 40rem ) {
+@media (width < 42rem ) {
   h2 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
