@@ -12,7 +12,7 @@
 
   #fake {
     display: inline-block;
-    color: var(--text-color2);
+    color: var(--text-color);
     animation: blink 0.6s steps(2, start) infinite;
   }
   
