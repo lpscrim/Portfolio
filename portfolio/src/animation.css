@@ -16,8 +16,12 @@
     animation: blink 0.6s steps(2, start) infinite;
   }
   
-  #name{
+  #name {
     animation: fade-in-bottom 0.5s ease-in-out both;
+  }
+
+  .appear {
+    animation: fade-in-bottom 0.8s ease-in-out 50ms both;
   }
 
   #typeTest{

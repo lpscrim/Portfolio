@@ -135,31 +135,34 @@
             </nav>
           </header>
           <div
-            id="container"
-            class="flex flex-col items-center mt-8 justify-start h-full mx-auto text-md md:text-lg lg:text-xl"
+            class="container text-pretty"
           >
             <h3 class="my-10">About Me</h3>
-            <p class="text-pretty">
+            <p>
               I am a Front End Web Developer with a passion for creating
               beautiful and functional websites. I have experience with HTML,
               CSS, JavaScript, React, and Tailwind CSS. I am always looking to
               learn new technologies and improve my skills.
             </p><br>
-            <p class="text-pretty">
+            <p>
               I am currently looking for a job as a Front End Web Developer. If
               you would like to work with me, please contact me using the form
               below.
             </p><br>
-            <p class="text-pretty">
+            <p>
               I am also available for freelance work. If you would like to hire
               me to build a website for you, please contact me using the form below.
             </p><br>
-            <p class="text-pretty">
+            <p>
               I am based in the UK, but I am happy to work with clients from
               around the world. I am fluent in English and conversational French and have experience
               working with clients from different countries.
-            </p>          </div>
-        </div>
+            </p>          
+          </div>
+            <a class="bottom-30 z-50 absolute left-1/2 transform -translate-x-1/2 bg-(--accent-color) text-(--text-color) font-bold py-2 px-4 rounded hover:brightness-105 active:brightness-95" >
+            Find out more
+            </a>
+          </div>
       </section>
       <section id="projectsSection" class="relative">
         <div
@@ -167,6 +170,10 @@
           class="relative z-1 h-screen p-10 pt-6 bg-(--accent-color) bg-[url(/public/absurdity.png)]"
         >
           <h3>Projects</h3>
+          <div
+            class="container flex flex-col items-center mt-8 justify-start h-full mx-auto text-md md:text-lg lg:text-xl"
+          >
+
         </div>
       </section>
       <section
@@ -281,6 +288,7 @@
     <script type="module" src="/src/hero.ts"></script>
     <script type="module" src="/src/theme.ts"></script>
     <script type="module" src="/src/navScroll.ts"></script>
+    <script type="module" src="/src/slideIn.ts"></script>
     <script>
       window.addEventListener("beforeunload", () => {
         window.scrollTo(0, 0);

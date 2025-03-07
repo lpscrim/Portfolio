@@ -105,19 +105,28 @@ h3 {
 }
 
 #heroBackground {
-  height: 49.6%;
+  height:50%;
 }
 
 #scrollButton {
   font-size: var(--text-xl);
 }
 
-#container {
+.container {
   max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem; 
+  justify-content: flex-start;
+  height: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.35rem; 
 }
 
 @media (width < 100rem ){
-  #container {
+  .container {
     max-width: 70rem;
   }
 } 
@@ -132,9 +141,9 @@ h3 {
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
   #heroBackground {
-    height: 51%
+    height: 51.4%
   }
-  #container {
+  .container {
     max-width: 60rem;
   }
   }
@@ -149,13 +158,14 @@ h3 {
     line-height: var(--tw-leading, var(--text-3xl--line-height) );
   }
   #heroBackground {
-    height: 52.2%
+    height: 52.6%
   }
   #scrollButton {
     font-size: var(--text-lg);
   }  
-  #container {
+  .container {
     max-width: 48rem;
+    font-size: 1.25rem;
   }
 }
 @media (width < 53rem ) {
@@ -168,13 +178,14 @@ h3 {
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
   #heroBackground {
-    height: 53.5%
+    height: 54%
   }
   #scrollButton {
     font-size: var(--text-md);
   }
-  #container {
+  .container {
     max-width: 36rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -188,10 +199,11 @@ h3 {
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
   #heroBackground {
-    height: 54.1%
+    height: 54.6%
   }
-  #container {
+  .container {
     max-width: 28rem;
+    font-size: 1rem;
   }
 }
 
@@ -201,9 +213,9 @@ h3 {
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   } 
   #heroBackground {
-    height: 54.6%
+    height: 55.3%
   }
-  #container {
+  .container {
     max-width: 24rem;
   }
 }
