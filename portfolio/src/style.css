@@ -78,6 +78,14 @@ h3 {
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
 }
 
+#number, #number.off {
+  visibility: hidden;
+}
+
+#number.on {
+  visibility: visible;
+}
+
 #about {
   clip-path: polygon(
     0 0, /* left top */
