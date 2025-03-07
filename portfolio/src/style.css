@@ -127,7 +127,7 @@ h3 {
 
 @media (width < 100rem ){
   .container {
-    max-width: 70rem;
+    max-width: 65rem;
   }
 } 
 
