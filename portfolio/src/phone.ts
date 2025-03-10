@@ -1,7 +1,7 @@
 export const displayNumber = () => {
 
     const number = document.getElementById('number')
-    let newClass = 'off'
+    let newClass = 'on'
 
     if (number?.className === 'off') {
         newClass = 'on'
