@@ -132,7 +132,27 @@ h3 {
   margin-right: auto;
   font-size: 1.35rem; 
 }
+.card {
+  max-width: 36rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
 
+.shadow {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.shadow:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px); 
+}
+
+.shadow:active {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transform: translateY(1px);
+}
 
 @media (width < 100rem ){
   .container {
@@ -208,7 +228,7 @@ h3 {
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
   #heroBackground {
-    height: 54.6%
+    height: 54.7%
   }
   .container {
     max-width: 28rem;
@@ -217,15 +237,9 @@ h3 {
 }
 
 @media (width < 36rem ) {
-  h2 {
-    font-size: var(--text-2xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  #name, #typeTest {
+    padding-left: 2rem;
   } 
-  #heroBackground {
-    height: 55.3%
-  }
-  .container {
-    max-width: 24rem;
-  }
+
 }
 
