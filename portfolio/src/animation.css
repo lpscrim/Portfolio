@@ -46,6 +46,20 @@
     animation: bounce-top 1.5s ease-in-out infinite both;
  }
   
+ nav li a {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(var(--text-color2), var(--text-color2));
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .3s ease-in-out;
+}
+
+nav li a:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
+}
+
   @keyframes slideUp {
     from {
       transform: translateY(100%);
