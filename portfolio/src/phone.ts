@@ -9,7 +9,9 @@ export const displayNumber = () => {
         newClass = 'off'
     }
 
-    number.className = newClass;
+    if (number) {
+        number.className = newClass;
+    }
 }
 
 (window as any).displayNumber = displayNumber;

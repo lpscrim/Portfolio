@@ -133,6 +133,10 @@ h3 {
   font-size: 1.35rem; 
 }
 
+.container button {
+  font-size: inherit;
+}
+
 @media (width < 100rem ){
   .container {
     max-width: 65rem;
