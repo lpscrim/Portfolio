@@ -22,8 +22,8 @@ const isScrollingDown = () => {
 };
 
 const handleNavScroll = () => {
-  const aboutSection = document.getElementById("aboutSection");
-  const aboutSectionTop = aboutSection?.offsetTop || 0;
+  const main = document.querySelector("main");
+  const mainTop = main?.offsetTop || 0;
 
   if (isScrollingDown() && !nav?.contains(document.activeElement)) {
     nav?.classList.add("scroll-down");
@@ -33,7 +33,7 @@ const handleNavScroll = () => {
     nav?.classList.remove("scroll-down");
   }
 
-  if (window.scrollY < aboutSectionTop) {
+  if (window.scrollY < mainTop) {
     nav?.classList.add("scroll-down");
     nav?.classList.remove("scroll-up");
   }
