@@ -133,7 +133,7 @@
               </ul>
             </nav>
           </header>
-          <div class="container text-left">
+          <div class="container">
             <h3 class="my-10">About Me</h3>
             <p>
               I am a Front End Web Developer with a passion for creating
@@ -159,31 +159,27 @@
             <br />
 
             <tech-icons></tech-icons>
-          </div>
-
-          <a
-            class="shadow cursor-pointer text-lg bottom-30 z-50 absolute left-1/2 -translate-x-1/2 bg-(--accent-color) text-(--text-color) font-bold py-2 px-4 rounded hover:brightness-105 active:brightness-95"
+            <a
+            class="shadow cursor-pointer text-lg mt-30 z-50 bg-(--accent-color) text-(--text-color) font-bold py-2 px-4 rounded hover:brightness-105 active:brightness-95"
           >
             Find out more
           </a>
+          </div>
         </div>
       </section>
       <section id="projectsSection" class="relative">
         <div
           id="projects"
-          class="relative z-1 min-h-screen p-10 pt-12 pb-40 bg-(--accent-color) bg-[url(/absurdity.png)]"
+          class="relative z-1 min-h-screen p-10 pb-40 bg-(--accent-color) bg-[url(/absurdity.png)]"
         >
-          <div class="flex justify-center">
-            <h3>Projects</h3>
-          </div>
           <div class="container">
+            <h3 class="my-8">Projects</h3>
             <div class="mx-auto text-center text-(--text-color)">
               <p>
                 Aute magna irure deserunt veniam aliqua magna enim voluptate.
               </p>
-              <p>A selection of my current projects</p>
             </div>
-            <div id="cardBox" class="flex xl:flex-row flex-col gap-8 py-20">
+            <div id="cardBox" class="flex xl:flex-row flex-col gap-8 py-15">
               <div class="card shadow">
                 <a href="https://lampman.netlify.app/" target="_blank">
                   <div class="relative group">
@@ -274,7 +270,7 @@
               </div>
             </div>
             <a
-              class="shadow cursor-pointer text-lg -bottom-10 z-50 absolute left-1/2 -translate-x-1/2 bg-(--background-color) text-(--text-color) font-bold py-2 px-4 rounded hover:brightness-105 active:brightness-95"
+              class="shadow cursor-pointer text-lg z-50 mt-2 bg-(--background-color) text-(--text-color) font-bold py-2 px-4 rounded hover:brightness-105 active:brightness-95"
             >
               Find out more
             </a>
@@ -287,22 +283,14 @@
       >
         <div
           id="contact"
-          class="relative z-1 pb-30 py-15 bg-(--background-color)"
+          class="relative z-1 pb-30 py-12 bg-(--background-color)"
         >
-          <div class="flex justify-center">
-            <h3>Contact</h3>
-          </div>
           <div class="container">
-            <div class="mx-auto text-center text-(--text-color)">
-              <p class="mt-2">
-                Aute magna irure deserunt veniam aliqua magna enim voluptate.
-              </p>
-              <p>Or send an Email to: Lpscrim@gmail.com</p>
-            </div>
+            <h3 class="my-8">Contact</h3>
             <form
               action="#"
               method="POST"
-              class="mx-auto xl:w-full mt-16 max-w-2xl sm:mt-20"
+              class="mx-auto xl:w-full mt-4 max-w-2xl"
             >
               <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
@@ -389,13 +377,14 @@
                     ></textarea>
                   </div>
                 </div>
-                <div class="mt-10 flex justify-center"></div>
+                <span class="flex ml-2 text-(--text-color2)">lpscrim@gmail.com</span>
                 <button
                   type="submit"
-                  class="shadow cursor-pointer text-lg mx-5 bottom-30 z-50 font-bold bg-(--accent-color) text-(--text-color) rounded hover:brightness-105 active:brightness-95"
+                  class="shadow py-2 cursor-pointer text-lg mx-5 bottom-30 z-50 font-bold bg-(--accent-color) text-(--text-color) rounded hover:brightness-105 active:brightness-95"
                 >
                   Get in touch
                 </button>
+                
               </div>
             </form>
           </div>
@@ -504,7 +493,7 @@
             />
           </svg>
         </button>
-        <span id="number">&emsp;+447487732282</span>
+        <span id="number" >&emsp;+447487732282</span>
       </div>
       <p class="relative pt-1 pr-10">© 2025 Lpscrim</p>
     </footer>

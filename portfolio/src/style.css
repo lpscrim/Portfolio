@@ -72,7 +72,7 @@ footer a:hover {
 h2 {
   font-size: var(--text-7xl);
   line-height: var(--tw-leading, var(--text-4xl--line-height) );
-  font-weight: 600;
+  font-weight: 500;
 }
 h3 {
   font-size: var(--text-4xl);
