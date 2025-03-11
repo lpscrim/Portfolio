@@ -68,7 +68,7 @@
   background-size: 0 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
-  transition: background-size .3s ease-in-out;
+  transition: background-size 0.3s ease-in-out;
 }
 
 nav li a:hover {
