@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  font-family:  "Lato", Helvetica, Arial, sans-serif;
+  font-family:  "Anek Devanagari", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -72,10 +72,12 @@ footer a:hover {
 h2 {
   font-size: var(--text-7xl);
   line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  font-weight: 600;
 }
 h3 {
   font-size: var(--text-4xl);
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
+  font-weight: 500;
 }
 
 #number, #number.off {
