@@ -88,6 +88,7 @@ h3 {
   visibility: visible;
 }
 
+
 #about {
   clip-path: polygon(
     0 0, /* left top */
@@ -156,11 +157,6 @@ h3 {
   transform: translateY(1px);
 }
 
-@media (width < 100rem ){
-  .container {
-    max-width: 65rem;
-  }
-} 
 
 @media (width < 80rem ) {
   h2 {
@@ -176,6 +172,7 @@ h3 {
   }
   .container {
     max-width: 60rem;
+    font-size: 1.2rem;
   }
   }
 
@@ -196,7 +193,7 @@ h3 {
   }  
   .container {
     max-width: 48rem;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }
 @media (width < 53rem ) {
@@ -216,7 +213,7 @@ h3 {
   }
   .container {
     max-width: 36rem;
-    font-size: 1.125rem;
+    
   }
 }
 
@@ -226,7 +223,7 @@ h3 {
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
   h3 {
-    font-size: var(--text-2xl);
+    font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
   #heroBackground {
