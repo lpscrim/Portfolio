@@ -281,10 +281,7 @@
           </div>
         </div>
       </section>
-      <section
-        id="contactSection"
-        class="relative bg-(--accent-color) bg-[url(/absurdity.png)]"
-      >
+      <section id="contactSection" class="relative bg-(--accent-color) bg-[url(/absurdity.png)]">
         <div
           id="contact"
           class="relative z-1 pb-30 pt-12 bg-(--background-color)"
@@ -294,7 +291,7 @@
             <form
               action="#"
               method="POST"
-              class="mx-auto xl:w-full mt-4 max-w-2xl"
+              class="mx-auto mt-4 max-w-2xl w-full"
             >
               <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
@@ -397,8 +394,10 @@
       </section>
     </main>
     <footer
-      class="justify-between bg-(--accent-color) bg-[url(/absurdity.png)] flex flex-row pb-4 w-full px-4 h-10 z-999 bottom-0"
+      class="justify-between bg-(--accent-color) bg-[url(/absurdity.png)] flex flex-row pb-2  w-full px-4 h-10 z-999 bottom-0"
     >
+    <div id="footerContent" class="flex w-full md:px-20 px-5 justify-between">
+
       <div id="footerLinks" class="flex items-center">
         <button
           id="theme-toggle"
@@ -516,9 +515,12 @@
             />
           </svg>
         </button>
-        <span id="number">&emsp;+447487732282</span>
+        <div  id="number" class="flex">  
+          <p>&emsp;+447487732282</p>
+        </div>
       </div>
-      <p class="relative pt-1 pr-10">© 2025 Lpscrim</p>
+      <p id="tm" class="relative pt-1 pr-10 sm:flex hidden">© 2025 Lpscrim</p>
+    </div>
     </footer>
 
     <script type="module" src="/src/hero.ts"></script>
