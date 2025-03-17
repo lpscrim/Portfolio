@@ -226,5 +226,21 @@ h3 {
     padding-left: 2rem;
   } 
 
+  .container {
+    max-width: 80%;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  }
+  h3 {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height) );
+  }
+  #heroBackground {
+    height: 50%
+  }
 }
 
