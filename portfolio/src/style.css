@@ -146,7 +146,7 @@ h3 {
 
 
 
-@media (width < 80rem ) {
+@media (width < 85rem ) {
   h2 {
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
@@ -155,11 +155,9 @@ h3 {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
-  #heroBackground {
-    height: 51.4%
-  }
+
   .container {
-    max-width: 60rem;
+    max-width: 80%;
     font-size: 1.2rem;
   }
   }
@@ -173,14 +171,12 @@ h3 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height) );
   }
-  #heroBackground {
-    height: 52.6%
-  }
+
   #scrollButton {
     font-size: var(--text-lg);
   }  
   .container {
-    max-width: 48rem;
+
     font-size: 1.125rem;
   }
 }
@@ -193,14 +189,8 @@ h3 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
-  #heroBackground {
-    height: 54%
-  }
 
-  .container {
-    max-width: 36rem;
-    
-  }
+
 }
 
 @media (width < 42rem ) {
@@ -212,11 +202,8 @@ h3 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
-  #heroBackground {
-    height: 54.7%
-  }
   .container {
-    max-width: 28rem;
+
     font-size: 1rem;
   }
 }
@@ -239,8 +226,6 @@ h3 {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
-  #heroBackground {
-    height: 50%
-  }
+
 }
 
