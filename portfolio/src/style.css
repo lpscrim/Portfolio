@@ -79,6 +79,7 @@ h3 {
   font-size: var(--text-4xl);
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
   font-weight: 500;
+  color: var(--text-color2);
 }
 
 #number, #number.off {
@@ -90,7 +91,7 @@ h3 {
 }
 
 
-#about {
+#aboutIntro {
   clip-path: polygon(
     0 0, /* left top */
     100% 0, /* right top */ 
@@ -137,12 +138,6 @@ h3 {
   font-size: 1.35rem; 
 }
 
-.innerContainer {
-  flex-direction: row;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
 
 .card {
   max-width: 36rem;

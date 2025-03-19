@@ -18,12 +18,13 @@
 
 <body class="w-full">
     <header id="header" class="flex flex-row w-full px-12 pt-4 pb-2 z-999 bg-(--background-color) fixed top-0">
-        <span class="hidden text-xl font-bold text-(--text-color2) sm:flex">
-            Lewis Scrimgeour</span>
+        <a href="/" class="pointer"><span class="hidden text-xl font-bold text-(--text-color2) sm:flex">
+            Lewis Scrimgeour</span
+          ></a>
         <nav id="navbar" class="text-lg flex justify-end ml-auto">
             <ul class="flex flex-row font-bold space-x-6 sm:space-x-8">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
@@ -42,17 +43,19 @@
     <main>
         <section id="about"
             class="flex flex-col items-center justify-center w-full min-h-screen bg-(--accent-color) bg-[url(/exclusive-paper.png)]">
-            <div class="border-1 container min-h-[80vh] ">
-                <div class="innerContainer">
-                    <div id="left" class="border-1 w-[50%] flex flex-col items-center justify-center">
-                        <img src="/public/Me_Sun.svg" alt="profile" class="w-100 h-100" />
+            <div class="container border-1 min-h-[80vh] ">
+                <div class="border-1 flex flex-col-reverse lg:flex-row w-full items-center justify-center">
+                    <div id="left" class="border-1 m-5 lg:w-[40%] flex flex-col items-center justify-center">
+                        <img src="/public/Me_Sun.svg" alt="profile" class="w-90 h-90" />
                     </div>
-                    <div id="right" class="border-1 w-[50%] flex flex-col items-center justify-center">
-                        <h3>About Me</h3>
+                    <div id="right" class="m-5 text-pretty lg:w-[60%] flex flex-col items-center justify-center">
+                        <h3 class="p-2">Hello, I'm Lewis</h3>
                         <p>I am a full stack developer with a passion for creating and learning new
                             things. I have experience with a variety of technologies and languages, including
                             JavaScript, Python,
                             and Java. I am always looking for new opportunities to learn and grow as a developer.
+                        </p></br>
+                        <p>Ea tempor pariatur laborum ad commodo pariatur fugiat anim. Velit eiusmod occaecat cillum ipsum tempor aliqua labore quis nostrud aliqua voluptate commodo commodo officia. Excepteur dolore nisi proident voluptate.
                         </p>
                     </div>
                 </div>
