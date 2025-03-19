@@ -7,6 +7,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="/src/style.css" />
     <link rel="stylesheet" href="/src/animation.css" />
+    <link rel="stylesheet" href="/src/about.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,31 +44,32 @@
         <div id="about"
             class="flex flex-col py-20 items-center justify-center w-full min-h-screen bg-(--accent-color) bg-[url(/exclusive-paper.png)]">
             <div class="container py-10 px-5 rounded-sm min-h-[80vh] bg-(--background-color) bg-[url(/absurdity.png)]">
-                <section id="aboutIntro" class="flex flex-col-reverse lg:flex-row w-full justify-center">
+                <section id="aboutIntro" class="flex flex-col-reverse lg:flex-row w-full justify-center pb-2 ">
                     <div id="left" class="m-5 lg:w-[40%] flex flex-col items-center justify-center">
                         <img src="/public/Me_Sun.svg" alt="profile" class="rounded-sm w-90 h-90" />
                     </div>
                     <div id="right" class="m-5 text-pretty lg:w-[60%] flex flex-col items-left justify-around">
                         <h4 class="pb-2">Hello, I'm Lewis Scrimgeour</h4>
-                        <div>      
+                        <div>
                             <p>I am a full stack developer with a passion for creating and learning new
                                 things. I have experience with a variety of technologies and languages, including
                                 JavaScript, Python,
                                 and Java. I am always looking for new opportunities to learn and grow as a developer.
                             </p></br>
                             <p>Ea tempor pariatur laborum ad commodo pariatur fugiat anim. Velit eiusmod occaecat cillum
-                                ipsum tempor aliqua labore quis nostrud aliqua voluptate commodo commodo officia. Excepteur
+                                ipsum tempor aliqua labore quis nostrud aliqua voluptate commodo commodo officia.
+                                Excepteur
                                 dolore nisi proident voluptate.
                             </p>
-                      </div>           
+                        </div>
                     </div>
                 </section>
-                <section id="aboutHistory" class=" mt-5 flex flex-col w-full items-left justify-center">
+                <section id="aboutHistory" class=" mt-5 listSection">
                     <details>
-                        <summary class="cursor-pointer px-5 pt-2">
+                        <summary class="cursor-pointer px-10 pt-2">
                             <h4 class="inline">History</h4>
                         </summary>
-                        <div class="py-5 px-10 space-y-10">
+                        <div class="py-5 px-20 space-y-10">
                             <p>
                                 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -87,63 +89,123 @@
                         </div>
                     </details>
                 </section>
-                <section id="aboutSkills" class="flex flex-col w-full items-left justify-center">
+                <section id="aboutSkills" class="listSection">
                     <details>
-                        <summary class="cursor-pointer px-5 pt-2">
+                        <summary class="cursor-pointer px-10 pt-2">
                             <h4 class="inline">Skills</h4>
                         </summary>
-                        <div class="py-5 px-10 space-y-10">
-                            <p>
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
-                            <p>
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
-                            <tech-icons></tech-icons>
+                        <div class="listSection" class="flex px-20 space-y-2">
+                            <div class="listItem">
+                                <div class="listHeader">
+                                    <h5>Languages</h5>
+                                </div>
+                                <ul class="flex flex-row space-x-15">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JAVASCRIPT</li>
+                                    <li>TYPESCRIPT</li>
+                                    <li>PYTHON</li>
+                                </ul>
+                                <div class="listBorder"></div>
+                            </div>
+                            <div class="listItem">
+                                <div class="listHeader">
+                                    <h5>Libraries/ Frameworks</h5>
+                                </div>
+                                <ul class="flex flex-row space-x-15">
+                                    <li>REACT</li>
+                                    <li>REDUX</li>
+                                    <li>NEXTJS</li>
+                                    <li>TAILWIND CSS</li>
+                                </ul>
+                                <div class="listBorder"></div>
+                            </div>
+                            <div class="listItem">
+                                <div class="listHeader">
+                                    <h5>Tools / Environments</h5>
+                                </div>
+                                <ul class="flex flex-row space-x-15">
+                                    <li>GIT</li>
+                                    <li>NODEJS</li>
+                                    <li>NPM</li>
+                                    <li>VSCODE</li>
+                                    <li>VITE</li> 
+                                </ul>
+                                <div class="listBorder"></div>
+                            </div>
+                           
                         </div>
                     </details>
                 </section>
-                <section id="aboutExperience" class="flex flex-col w-full items-left justify-center">
+                <section id="aboutExperience" class="listSection">
                     <details>
-                        <summary class="cursor-pointer px-5 pt-2">
+                        <summary class="cursor-pointer px-10 pt-2">
                             <h4 class="inline">Experience</h4>
                         </summary>
-                        <div class="py-5 px-10 space-y-10">
-                            <p>
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
-                            <p>
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
+                        <div class="listSection" class="flex py-2 px-20 space-y-2">
+                            <div class="listItem">
+                                <div class="listHeader">
+                                    <h5>Job Title</h5>
+                                    <a><h5>Company Name</h5></a>
+                                    <h5>Start Date - End Date</h5>
+                                </div>
+                                <ul>
+                                    <li>
+                                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                    <li>
+                                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                </ul>
+                                <div class="listBorder"></div>
+                            </div>
+                            <div class="listItem">
+                                <div class="listHeader">
+                                    <h5>Job Title</h5>
+                                    <a><h5>Company Name</h5></a>
+                                    <h5>Start Date - End Date</h5>
+                                </div>
+                                <ul>
+                                    <li>
+                                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                    <li>
+                                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                </ul>
+                                <div class="listBorder"></div>
+                            </div>
+                            <div class="listItem">
+                                <div class="listHeader">
+                                    <h5>Job Title</h5>
+                                    <a><h5>Company Name</h5></a>
+                                    <h5>Start Date - End Date</h5>
+                                </div>
+                                <ul>
+                                    <li>
+                                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                    <li>
+                                        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </li>
+                                </ul>
+                                <div class="listBorder"></div>
+                            </div>
                         </div>
                     </details>
                 </section>
-                <section id="aboutNext" class="flex flex-col w-full items-left justify-center">
+                <section id="aboutNext" class="listSection">
                     <details>
-                        <summary class="cursor-pointer px-5 pt-2">
+                        <summary class="cursor-pointer px-10 pt-2">
                             <h4 class="inline">Next</h4>
                         </summary>
-                        <div class="py-5 px-10 space-y-10">
+                        <div class="py-5 px-20 space-y-10">
                             <p>
                                 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -152,14 +214,21 @@
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                 mollit anim id est laborum.
                             </p>
-                            <p>
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
+                            <div class="listSection" class="flex px-20 space-y-2">
+                                <div class="listItem">
+                                    <div class="listHeader">
+                                        <h5>WHICH TECH IS NEXT?</h5>
+                                    </div>
+                                    <ul class="flex flex-row space-x-15">
+                                        <li>SVELTE</li>
+                                        <li>REACT NATIVE</li>
+                                        <li>THREEJS</li>
+                                        <li>HYPERSCRIPT</li>
+                                    </ul>
+                                    <div class="listBorder"></div>
+                                </div>
+                        
+                            </div>
                         </div>
                     </details>
                 </section>
@@ -170,9 +239,8 @@
         </div>
     </main>
     <footer
-        class="justify-between bg-(--background-color) bg-[url(/absurdity.png)] flex flex-row pb-2  w-full px-4 h-10 z-999 bottom-0">
+        class="footerAbout bg-(--background-color)">
         <div id="footerContent" class="flex w-full md:px-20 px-5 justify-between">
-
             <div id="footerLinks" class="flex items-center">
                 <button id="theme-toggle" class="text-(--text-color) hover:text-(--background-color) cursor-pointer"
                     onclick="setTheme()">
@@ -182,7 +250,7 @@
                             d="M20 6H10m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4m16 6h-2m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4m16 6H10m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4" />
                     </svg>
                 </button>
-                <a id="instagram" class="pl-4 text-(--text-color) cursor-pointer">
+                <a id="instagram">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                         fill="none" viewBox="0 0 22 22">
                         <path fill="currentColor" fill-rule="evenodd"
@@ -190,7 +258,7 @@
                             clip-rule="evenodd" />
                     </svg>
                 </a>
-                <a id="whatsapp" class="pl-4 text-(--text-color) cursor-pointer">
+                <a id="whatsapp">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                         fill="none" viewBox="0 0 22 22">
                         <path fill="currentColor" fill-rule="evenodd"
@@ -200,7 +268,7 @@
                             d="M16.735 13.492c-.038-.018-1.497-.736-1.756-.83a1.008 1.008 0 0 0-.34-.075c-.196 0-.362.098-.49.291-.146.217-.587.732-.723.886-.018.02-.042.045-.057.045-.013 0-.239-.093-.307-.123-1.564-.68-2.751-2.313-2.914-2.589-.023-.04-.024-.057-.024-.057.005-.021.058-.074.085-.101.08-.079.166-.182.249-.283l.117-.14c.121-.14.175-.25.237-.375l.033-.066a.68.68 0 0 0-.02-.64c-.034-.069-.65-1.555-.715-1.711-.158-.377-.366-.552-.655-.552-.027 0 0 0-.112.005-.137.005-.883.104-1.213.311-.35.22-.94.924-.94 2.16 0 1.112.705 2.162 1.008 2.561l.041.06c1.161 1.695 2.608 2.951 4.074 3.537 1.412.564 2.081.63 2.461.63.16 0 .288-.013.4-.024l.072-.007c.488-.043 1.56-.599 1.804-1.276.192-.534.243-1.117.115-1.329-.088-.144-.239-.216-.43-.308Z" />
                     </svg>
                 </a>
-                <a id="github" class="pl-4 text-(--text-color) cursor-pointer">
+                <a id="github">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                         fill="currentColor" viewBox="0 0 22 22">
                         <path fill-rule="evenodd"
@@ -208,7 +276,7 @@
                             clip-rule="evenodd" />
                     </svg>
                 </a>
-                <a id="github" class="pl-4 text-(--text-color) cursor-pointer">
+                <a id="github">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                         fill="currentColor" viewBox="0 0 22 22">
                         <path fill-rule="evenodd"

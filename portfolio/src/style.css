@@ -36,7 +36,7 @@
 
 :root.white {
   --text-color: #000000;
-  --text-color2: #555350;
+  --text-color2: #413d3a;
   --background-color: #f5f3eb;
   --button-color: #D3D3D3;
   --accent-color: #d0cdc8;
@@ -65,9 +65,33 @@ header a:hover {
   color: var(--text-color2);
 }
 
-footer a:hover {
+.footerMain a:hover {
   color: var(--background-color);
   transition: color 0.1s ease-in-out;
+}
+
+.footerAbout a:hover {
+  color: var(--accent-color);
+  transition: color 0.1s ease-in-out;
+}
+
+footer {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+  padding-bottom: 0.5rem; 
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+  height: 2.5rem;   
+  z-index: 999; 
+  bottom: 0; 
+  width: 100%;
+}
+
+footer a {
+  color: var(--text-color);
+  padding-left: 1rem;
+  cursor: pointer;
 }
 
 h2 {
@@ -86,6 +110,10 @@ h4 {
   line-height: var(--tw-leading, var(--text-3xl--line-height) );
   font-weight: 400;
   color: var(--text-color2);
+}
+h5 {
+  font-size: var(--text-2xl);
+  line-height: var(--tw-leading, var(--text-xl--line-height) );
 }
 
 #number, #number.off {
@@ -194,6 +222,10 @@ h4 {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height) );
   }
+  h5 {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height) );
+  }
   
 
   .container {
@@ -264,6 +296,11 @@ h4 {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height) );
   }
+  h5 {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-xl--line-height) );
+  }
+
 
 }
 
