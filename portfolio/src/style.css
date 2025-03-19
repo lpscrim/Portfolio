@@ -144,6 +144,15 @@ h4 {
   );
 }
 
+#about{
+  clip-path: polygon(
+    0 0, /* left top */
+    100% 0, /* right top */ 
+    100% 100%, /* right bottom */
+    0 98% /* left bottom */
+  );
+}
+
 #heroBackground {
   height:50%;
 }
@@ -181,10 +190,11 @@ h4 {
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
-  h3 {
-    font-size: var(--text-4xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height) );
+  h4 {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height) );
   }
+  
 
   .container {
     max-width: 80%;
@@ -215,10 +225,7 @@ h4 {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
-  h3 {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height) );
-  }
+
 
 
 }
@@ -228,10 +235,7 @@ h4 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
-  h3 {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height) );
-  }
+
   .container {
 
     font-size: 1rem;
@@ -256,6 +260,10 @@ h4 {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
   }
+  h4 {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height) );
+  }
 
 }
 
@@ -276,6 +284,10 @@ h4 {
   h3 {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height) );
+  }
+  h4 {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-xl--line-height) );
   }
 
 }
