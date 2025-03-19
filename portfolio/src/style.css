@@ -28,7 +28,7 @@
 
 :root.black {
   --text-color: #FFFFFF;
-  --text-color2: #c9c9c9;
+  --text-color2: #dbdada;
   --background-color: #141414;
   --button-color: #D3D3D3;
   --accent-color: #707070;
@@ -36,14 +36,14 @@
 
 :root.white {
   --text-color: #000000;
-  --text-color2: #616161;
-  --background-color: #fffefe;
+  --text-color2: #555350;
+  --background-color: #f5f3eb;
   --button-color: #D3D3D3;
-  --accent-color: #c7c6c6;
+  --accent-color: #d0cdc8;
 }
 
 :root.blue {
-  --text-color: #20363f;
+  --text-color: #21353d;
   --text-color2: #182024;
   --background-color: #c9d5db;
   --button-color: #dee6e9;
@@ -81,6 +81,12 @@ h3 {
   font-weight: 500;
   color: var(--text-color2);
 }
+h4 {
+  font-size: var(--text-3xl);
+  line-height: var(--tw-leading, var(--text-3xl--line-height) );
+  font-weight: 400;
+  color: var(--text-color2);
+}
 
 #number, #number.off {
   visibility: hidden;
@@ -91,7 +97,28 @@ h3 {
 }
 
 
-#aboutIntro {
+.button {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-size: 1.125rem; 
+  z-index: 50; 
+  color: var(--text-color); 
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: filter 0.2s ease-in-out;
+  cursor: pointer;
+}
+  
+  .button:hover {
+    filter: brightness(105%); 
+  }
+  
+  .button:active {
+    filter: brightness(95%); 
+  }
+
+
+#aboutHome{
   clip-path: polygon(
     0 0, /* left top */
     100% 0, /* right top */ 
