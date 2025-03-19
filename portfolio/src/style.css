@@ -43,11 +43,11 @@
 }
 
 :root.blue {
-  --text-color: #024157;
-  --text-color2: #ffffff;
-  --background-color: #a0d6e4;
-  --button-color: #D3D3D3;
-  --accent-color: #52adc9;
+  --text-color: #20363f;
+  --text-color2: #182024;
+  --background-color: #c9d5db;
+  --button-color: #dee6e9;
+  --accent-color: #75909c;
 }
 
 body {
