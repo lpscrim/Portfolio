@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-:root, :root.light {
+ :root.light {
   --text-color: #422f2f;
   --text-color2: #a0421d;
   --background-color: #eee5c3;
@@ -26,7 +26,7 @@
   --accent-color: #42495a;
 }
 
-:root.black {
+:root, :root.black {
   --text-color: #FFFFFF;
   --text-color2: #dbdada;
   --background-color: #141414;
