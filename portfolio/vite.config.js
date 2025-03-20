@@ -5,6 +5,7 @@ export default defineConfig({
     tailwindcss(),
   ],
   build: {
+    outDir: '../dist',
     rollupOptions: {
       input: {
         main: 'index.html', 
@@ -12,4 +13,5 @@ export default defineConfig({
       },
     },
   },
+
 })
