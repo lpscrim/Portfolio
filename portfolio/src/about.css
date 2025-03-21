@@ -27,13 +27,17 @@
 .listItem ul {
     list-style-type: disc;  
     padding: 0;
-    font-weight: 350;
+    font-weight: 300;
     align-self: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
 .listBorder {
     align-self: left;
-    width: 85%;
+    width: 100%;
     padding-top: 2rem;
     border-bottom: 0.15rem dotted var(--accent-color);
 }

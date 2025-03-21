@@ -1,6 +1,6 @@
 export const setTheme = () => {
   const root = document.getElementsByTagName('html')[0];
-  let newTheme = 'black';
+  let newTheme = 'dark';
 
   if (root.className === 'light') {
     newTheme = 'dark';

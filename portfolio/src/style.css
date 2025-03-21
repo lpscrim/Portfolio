@@ -18,7 +18,7 @@
   --accent-color: #dfb38a;
 }
 
-:root.dark {
+:root, :root.dark {
   --text-color: #e7ffdf;
   --text-color2: #f9cb9e;
   --background-color: #011936;
@@ -26,7 +26,7 @@
   --accent-color: #82a3a1;
 }
 
-:root, :root.black {
+:root.black {
   --text-color: #FFFFFF;
   --text-color2: #dbdada;
   --background-color: #141414;
