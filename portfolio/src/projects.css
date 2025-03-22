@@ -19,3 +19,36 @@ html {
   scroll-padding-top: 5rem;
 
 }
+
+.scroller {
+  list-style: disc;
+}
+
+.scroller li {
+  color: var(--text-color1);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+
+  margin: .5rem 0; 
+}
+
+.scroller li:hover {
+  color: var(--text-color2);
+}
+
+.scroller li:active {
+  color: var(--text-color2);
+}
+
+.scroller li p {
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  transition: opacity 4s ease-in-out;
+  opacity: 0;
+}
+
+.scroller li:hover p {
+
+  opacity: 1;
+}
