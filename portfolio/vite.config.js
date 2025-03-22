@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         main: 'index.html', 
         about: 'about.html', 
+        projects: 'projects.html',
       },
     },
   },
