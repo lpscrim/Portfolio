@@ -44,7 +44,7 @@
                         </svg>
 
                     </a></li>
-                <li class="block md:hidden"><a href="#projects">
+                <li class="block md:hidden"><a href="projects">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20"
                             height="20" fill="currentColor" viewBox="0 0 22 22">
                             <path fill-rule="evenodd"
@@ -54,7 +54,7 @@
                         </svg>
 
                     </a></li>
-                <li class="block md:hidden"><a href="#contact">
+                <li class="block md:hidden"><a href="/#contact">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20"
                             height="20" fill="currentColor" viewBox="0 0 22 22">
                             <path
@@ -63,8 +63,8 @@
                     </a></li>
                 <li class="md:block hidden"><a href="/">Home</a></li>
                 <li class="md:block hidden"><a href="about">About</a></li>
-                <li class="md:block hidden"><a href="#projects">Projects</a></li>
-                <li class="md:block hidden"><a href="#contact">Contact</a></li>
+                <li class="md:block hidden"><a href="projects">Projects</a></li>
+                <li class="md:block hidden"><a href="/#contact">Contact</a></li>
                 <li>
                     <button id="theme-toggle" class="text-(--text-color2) hover:text-(--text-color) cursor-pointer"
                         onclick="setTheme()">
@@ -80,16 +80,15 @@
     </header>
     <main>
         <div id="projects"
-            class="flex flex-col py-20 items-center justify-center overflow-y-auto w-full min-h-[95svh] bg-(--accent-color)/80 bg-[url(/exclusive-paper.png)]">
+            class="flex flex-col py-20 items-center justify-center overflow-y-auto w-full bg-(--accent-color)/80 bg-[url(/exclusive-paper.png)]">
                     <div class="relative container py-10 rounded-sm min-h-[70svh] bg-(--background-color)/90 bg-[url(/absurdity.png)]">
                     </div>
                     <div class="relative container py-10 rounded-sm min-h-[70svh] bg-(--background-color)/90 bg-[url(/absurdity.png)]">
                     </div>
                 </div>  
     </main>
-    <div class="fixed bg-(--accent-color) w-full ">
-        <footer class="fixed footerAbout bg-(--background-color)">
-            <div id="footerContent" class=" flex w-full md:px-20 px-5 justify-between">
+        <footer class="fixed footerAbout bg-(--background-color) w-full pt-8 z-999">
+            <div id="footerContent" class="flex w-full md:px-20 px-5 justify-between">
                 <div id="footerLinks" class="flex items-center">
                     <button id="theme-toggle" class="text-(--text-color) hover:text-(--background-color) cursor-pointer"
                         onclick="setTheme()">
@@ -149,7 +148,6 @@
                 <p id="tm" class="relative pt-1 pr-10 sm:flex hidden">© 2025 Lpscrim</p>
             </div>
         </footer>
-    </div>
     <script type="module" src="/src/theme.ts"></script>
     <script type="module" src="/src/slideIn.ts"></script>
     <script type="module" src="/src/phone.ts"></script>

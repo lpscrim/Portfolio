@@ -51,6 +51,14 @@
     align-items: left;
 }
 
+#about{
+    clip-path: polygon(
+      0 0, /* left top */
+      100% 0, /* right top */ 
+      100% 99%, /* right bottom */
+      0 96% /* left bottom */
+    );
+  }
 
 @media (max-width: 768px) {
     .listItem {

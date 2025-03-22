@@ -1,2 +1,9 @@
 footer {
+    clip-path: polygon(
+      0 40%, /* left top */
+      100% 0, /* right top */ 
+      100% 100%, /* right bottom */
+      0 100% /* left bottom */
+    );
+ 
 }
