@@ -62,10 +62,7 @@
     animation: bounce-top 1.5s ease-in-out infinite both;
  }
 
- #logoHero {
-  animation: slideUp 0.5s ease-in-out 50ms both;
- }
-  
+   
  nav li a {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent), linear-gradient(var(--text-color2), var(--text-color2));
@@ -78,6 +75,20 @@
 nav li a:hover {
   background-size: 100% 3px;
   background-position: 0 100%
+}
+
+#logoHero {
+  -webkit-animation: fadeinout 3s linear forwards;
+  animation: fadeinout 3s linear forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+50% { opacity: 1; }
 }
 
   @keyframes slideUp {
