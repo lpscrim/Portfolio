@@ -2,7 +2,8 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: center;
+  scroll-snap-type: both mandatory;
+  scroll-padding-top: 5rem;
 }
 
 :root {
