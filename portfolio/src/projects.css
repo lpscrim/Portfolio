@@ -8,6 +8,15 @@ footer {
  
 }
 
+html {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+}
+#proj1, #proj2, #proj3, #projNew {
+  scroll-snap-align: start;
+
+}
+
 html, #projects {
   scroll-padding-top: 5rem;
 }
