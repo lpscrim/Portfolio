@@ -18,50 +18,52 @@
 </head>
 
 <body class="w-full relative">
-    <header id="header" class="flex flex-row w-full px-12 pt-4 pb-2 z-999 bg-(--background-color) fixed top-0">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 17" width="30" height="85" class="absolute left-2 -top-3.5 scale-30 text-(--accent-color)">
+    <header id="header" class="flex flex-row w-full lg:pl-12 lg:pr-14 md:pl-12 md:pr-10 pl-10 pr-6 pt-4 pb-2 z-999 bg-(--background-color) fixed top-0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 17" width="30" height="85" class="absolute left-2 -top-3 scale-30 text-(--accent-color)">
             <path d="m 0 0 l 6 0 l -6 3 l 0 -3 m 0 3 l 6 6 l -6 8 l 0 -10 l 2 -2" stroke="var(--background-color)" stroke-width="0.1" fill="currentColor"/>
           </svg>
-        <a href="/"><span class="sm:text-xl text-lg text-(--text-color2) flex">
+        <a href="/"><span class="hidden sm:flex text-xl font-bold text-(--text-color2)">
                 Lewis Scrimgeour</span></a>
+        <a href="/"><span class="sm:hidden text-md font-bold text-(--text-color2) flex mt-1">
+                L.Scrimgeour</span></a>
         <nav id="navbar" class="text-lg flex justify-end ml-auto">
-            <ul class="flex flex-row font-bold space-x-6 sm:space-x-8">
+            <ul class="flex flex-row font-bold space-x-4 sm:space-x-8">
                 <li class="block md:hidden"><a href="/">
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                      fill="currentColor" viewBox="0 0 22 22">
-                      <path fill-rule="evenodd"
-                        d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z"
-                        clip-rule="evenodd" />
-                    </svg>
-                  </a></li>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" fill="currentColor" viewBox="0 0 22 22">
+                            <path fill-rule="evenodd"
+                                d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a></li>
                 <li class="block md:hidden"><a href="about">
-                    <svg class="w5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                      fill="none" viewBox="0 0 22 22">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M14.7141 15h4.268c.4043 0 .732-.3838.732-.8571V3.85714c0-.47338-.3277-.85714-.732-.85714H6.71411c-.55228 0-1 .44772-1 1v4m10.99999 7v-3h3v3h-3Zm-3 6H6.71411c-.55228 0-1-.4477-1-1 0-1.6569 1.34315-3 3-3h2.99999c1.6569 0 3 1.3431 3 3 0 .5523-.4477 1-1 1Zm-1-9.5c0 1.3807-1.1193 2.5-2.5 2.5s-2.49999-1.1193-2.49999-2.5S8.8334 9 10.2141 9s2.5 1.1193 2.5 2.5Z" />
-                    </svg>
-      
-                  </a></li>
-                <li class="block md:hidden"><a href="projects">
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                      fill="currentColor" viewBox="0 0 22 22">
-                      <path fill-rule="evenodd"
-                        d="M20 10H4v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8ZM9 13v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1Z"
-                        clip-rule="evenodd" />
-                      <path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2Z" />
-                    </svg>
-      
-                  </a></li>
+                        <svg class="w5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="none" viewBox="0 0 22 22">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14.7141 15h4.268c.4043 0 .732-.3838.732-.8571V3.85714c0-.47338-.3277-.85714-.732-.85714H6.71411c-.55228 0-1 .44772-1 1v4m10.99999 7v-3h3v3h-3Zm-3 6H6.71411c-.55228 0-1-.4477-1-1 0-1.6569 1.34315-3 3-3h2.99999c1.6569 0 3 1.3431 3 3 0 .5523-.4477 1-1 1Zm-1-9.5c0 1.3807-1.1193 2.5-2.5 2.5s-2.49999-1.1193-2.49999-2.5S8.8334 9 10.2141 9s2.5 1.1193 2.5 2.5Z" />
+                        </svg>
+
+                    </a></li>
+                <li class="block md:hidden"><a href="#projects">
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" fill="currentColor" viewBox="0 0 22 22">
+                            <path fill-rule="evenodd"
+                                d="M20 10H4v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8ZM9 13v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1Z"
+                                clip-rule="evenodd" />
+                            <path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2Z" />
+                        </svg>
+
+                    </a></li>
                 <li class="block md:hidden"><a href="#contact">
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                      fill="currentColor" viewBox="0 0 22 22">
-                      <path
-                        d="M17 6h-2V5h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2h-.541A5.965 5.965 0 0 1 14 10v4a1 1 0 1 1-2 0v-4c0-2.206-1.794-4-4-4-.075 0-.148.012-.22.028C7.686 6.022 7.596 6 7.5 6A4.505 4.505 0 0 0 3 10.5V16a1 1 0 0 0 1 1h7v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3h5a1 1 0 0 0 1-1v-6c0-2.206-1.794-4-4-4Zm-9 8.5H7a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Z" />
-                    </svg>
-                  </a></li>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" fill="currentColor" viewBox="0 0 22 22">
+                            <path
+                                d="M17 6h-2V5h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2h-.541A5.965 5.965 0 0 1 14 10v4a1 1 0 1 1-2 0v-4c0-2.206-1.794-4-4-4-.075 0-.148.012-.22.028C7.686 6.022 7.596 6 7.5 6A4.505 4.505 0 0 0 3 10.5V16a1 1 0 0 0 1 1h7v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3h5a1 1 0 0 0 1-1v-6c0-2.206-1.794-4-4-4Zm-9 8.5H7a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Z" />
+                        </svg>
+                    </a></li>
                 <li class="md:block hidden"><a href="/">Home</a></li>
                 <li class="md:block hidden"><a href="about">About</a></li>
-                <li class="md:block hidden"><a href="projects">Projects</a></li>
+                <li class="md:block hidden"><a href="#projects">Projects</a></li>
                 <li class="md:block hidden"><a href="#contact">Contact</a></li>
                 <li>
                     <button id="theme-toggle" class="text-(--text-color2) hover:text-(--text-color) cursor-pointer"
@@ -78,8 +80,8 @@
     </header>
     <main>
         <div id="about"
-            class="flex flex-col py-20 items-center justify-center w-full min-h-[100svh] bg-(--accent-color) bg-[url(/exclusive-paper.png)]">
-            <div class="container py-10 px-5 rounded-sm min-h-[80vh] bg-(--background-color) bg-[url(/absurdity.png)]">
+            class="flex flex-col py-20 items-center justify-center w-full min-h-[100svh] bg-(--accent-color)/80 bg-[url(/exclusive-paper.png)]">
+            <div class="container py-10 px-5 rounded-sm min-h-[80vh] bg-(--background-color)/90 bg-[url(/absurdity.png)]">
                 <section id="aboutIntro" class="flex flex-col-reverse lg:flex-row w-full justify-center pb-2 ">
                     <div id="left" class="m-5 lg:w-[40%] flex flex-col items-center justify-center">
                         <img src="/public/Me_Sun.svg" alt="profile" class="rounded-sm w-90 aspect-square" />

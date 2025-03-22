@@ -17,12 +17,14 @@
 </head>
 
 <body class="w-full">
-  <header id="movingHeader" class="invisible flex flex-row w-full px-12 pt-4 pb-2 z-999 bg-inherit fixed top-0">
+  <header id="movingHeader" class="invisible flex flex-row w-full lg:pl-12 lg:pr-14 md:pl-12 md:pr-10 pl-10 pr-6 pt-4 pb-2 z-999 bg-(--background-color) fixed top-0">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 17" width="30" height="85" class="absolute left-2 -top-3.5 scale-30 text-(--accent-color)">
       <path d="m 0 0 l 6 0 l -6 3 l 0 -3 m 0 3 l 6 6 l -6 8 l 0 -10 l 2 -2" stroke="var(--background-color)" stroke-width="0.1" fill="currentColor"/>
     </svg>
-    <a href="/"><span class="sm:text-xl text-lg text-(--text-color2) flex">
-        Lewis Scrimgeour</span></a>
+    <a href="/"><span class="hidden sm:flex text-xl font-bold text-(--text-color2)">
+      Lewis Scrimgeour</span></a>
+<a href="/"><span class="sm:hidden text-md font-bold text-(--text-color2) flex mt-1">
+      L.Scrimgeour</span></a>
     <nav id="navbar" class="text-lg flex justify-end ml-auto">
       <ul class="flex flex-row font-bold space-x-6 sm:space-x-8">
         <li class="block md:hidden"><a href="/">
@@ -97,12 +99,14 @@
     </div>
   </div>
   <main>
-    <header id="fixedHeader" class="flex flex-row w-full px-12 pt-4 pb-2 z-888 relative top-0 bg-(--background-color)">
+    <header id="fixedHeader" class="flex flex-row w-full lg:pl-12 lg:pr-14 md:pl-12 md:pr-10 pl-10 pr-6 pt-4 pb-2 z-999 bg-(--background-color) relative top-0">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 17" width="30" height="85" class="absolute left-2 -top-3.5 scale-30 text-(--accent-color)">
         <path d="m 0 0 l 6 0 l -6 3 l 0 -3 m 0 3 l 6 6 l -6 8 l 0 -10 l 2 -2" stroke="var(--background-color)" stroke-width="0.1" fill="currentColor"/>
       </svg>
-      <a href="/" class="pointer"><span class=" sm:text-xl text-lg  text-(--text-color2) flex">
-          Lewis Scrimgeour</span></a>
+      <a href="/"><span class="hidden sm:flex text-xl font-bold text-(--text-color2)">
+        Lewis Scrimgeour</span></a>
+  <a href="/"><span class="sm:hidden text-md font-bold text-(--text-color2) flex mt-1">
+        L.Scrimgeour</span></a>
       <nav id="navbar" class="text-lg flex justify-end ml-auto">
         <ul class="flex flex-row font-bold space-x-6 sm:space-x-8">
           <li class="block md:hidden"><a href="/">
@@ -189,7 +193,7 @@
       </div>
     </section>
     <section id="projectsSection" class="relative">
-      <div id="projects" class="relative z-1 min-h-[100svh] pt-20 bg-(--accent-color) bg-[url(/absurdity.png)]">
+      <div id="projectsHome" class="relative z-1 min-h-[100svh] pt-20 bg-(--accent-color) bg-[url(/absurdity.png)]">
         <div class="container pb-50 md:pb-30">
           <h3 class="pb-8">Projects</h3>
           <div class="mx-auto text-center text-(--text-color)">

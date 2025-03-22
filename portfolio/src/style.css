@@ -154,7 +154,7 @@ h5 {
     0 92% /* left bottom */
   );
 }
-#projects {
+#projectsHome {
   clip-path: polygon(
     0 0, /* left top */
     100% 0, /* right top */ 
