@@ -15,9 +15,10 @@ footer {
   scroll-snap-align: start;
 }
 
-html {
+html, #projects {
   scroll-padding-top: 5rem;
 }
+
 
 .scroller {
   list-style: disc;
