@@ -78,8 +78,8 @@ nav li a:hover {
 }
 
 #logoHero {
-  -webkit-animation: fadeinout 3s linear forwards;
-  animation: fadeinout 3s linear forwards;
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
   opacity: 0;
 }
 
