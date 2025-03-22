@@ -7,3 +7,15 @@ footer {
     );
  
 }
+
+#projects {
+  scroll-snap-type: y mandatory;
+}
+#proj1 #proj2 #proj3 #proj4 {
+  scroll-snap-align: start;
+}
+
+html {
+  scroll-padding-top: 5rem;
+
+}
