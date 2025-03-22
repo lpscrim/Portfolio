@@ -61,6 +61,10 @@
     margin: 0.2rem;
     animation: bounce-top 1.5s ease-in-out infinite both;
  }
+
+ #logoHero {
+  animation: slideUp 0.5s ease-in-out 50ms both;
+ }
   
  nav li a {
   border-bottom-width: 0;
