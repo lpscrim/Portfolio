@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: center;
+}
+
 :root {
   font-family:  "Anek Devanagari", Helvetica, Arial, sans-serif;
   line-height: 1.5;
