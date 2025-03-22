@@ -74,7 +74,8 @@ header a:hover {
   transition: color 0.1s ease-in-out;
 }
 
-.footerAbout a:hover {
+
+.footerAlt a:hover, .footerAlt button:hover {
   color: var(--accent-color);
   transition: color 0.1s ease-in-out;
 }
