@@ -8,14 +8,7 @@ footer {
  
 }
 
-html {
-  scroll-snap-type: y proximity;
-  scroll-behavior: smooth;
-}
-#proj1, #proj2, #proj3, #proj4 {
-  scroll-snap-align: start;
 
-}
 
 html, #projects {
   scroll-padding-top: 5rem;
@@ -54,3 +47,4 @@ html, #projects {
 
   opacity: 1;
 }
+
