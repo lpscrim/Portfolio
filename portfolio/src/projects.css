@@ -25,7 +25,6 @@ html, #projects {
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
-
   margin: .5rem 0; 
 }
 
@@ -51,6 +50,15 @@ html, #projects {
 .container {
   margin-top: 1rem;
 }
+
+#default-carousel button {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+
 @media (width < 36rem )  {
   .container {
     max-width: 95%;
