@@ -72,10 +72,10 @@ body {
   display: flex;
   flex-direction: row; 
   width: 100%;
-  padding-left: ;
-  padding-right: ;
-  padding-top: ;
-  padding-bottom: ;
+  padding-left: 3rem;
+  padding-right: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
   z-index: 999; 
   background-color: var(--background-color); 
   top: 0; 
@@ -226,8 +226,19 @@ h5 {
   #scrollButton {
     font-size: var(--text-lg);
   }
-  
+
+  .header {
+    padding-right: 2.5rem;
+  }
 }
+
+@media (width < 48rem ) {
+  .header {
+    padding-right: 1.25rem;
+    padding-left: 2rem;
+  }
+}
+
 @media (width < 53rem ) {
   h2 {
     font-size: var(--text-4xl);
