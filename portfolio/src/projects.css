@@ -17,6 +17,7 @@ html, #projects {
 
 .scroller {
   list-style: disc;
+  direction: rtl;
 }
 
 .scroller li {
@@ -44,7 +45,15 @@ html, #projects {
 }
 
 .scroller li:hover p {
-
   opacity: 1;
 }
+
+@media screen and (max-width: 480px) {
+  
+  .scroller li p {
+    display: none;
+  }
+  
+}
+
 
