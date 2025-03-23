@@ -21,7 +21,7 @@ html, #projects {
 }
 
 .scroller li {
-  color: var(--accent-color);
+  color: var(--text-color);
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.5s ease-in-out;

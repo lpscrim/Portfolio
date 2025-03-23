@@ -55,6 +55,11 @@ html {
   --accent-color: #78a6ba;
 }
 
+#scrollButton {
+  font-size: var(--text-2xl);
+  font-weight: 500;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -189,7 +194,7 @@ h5 {
 
   .container {
     max-width: 80%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   }
 

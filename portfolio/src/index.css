@@ -19,10 +19,6 @@
   #heroBackground {
     height:50%;
   }
-  
-  #scrollButton {
-    font-size: var(--text-xl);
-  }
 
   .card {
     max-width: 36rem;
