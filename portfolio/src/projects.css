@@ -56,6 +56,13 @@ html, #projects {
   height: 0.75rem;
   border-radius: 100%;
   cursor: pointer;
+  background-color: var(--text-color2);
+  opacity: 0.5;
+}
+
+#default-carousel [aria-current="true"], #default-carousel button:hover {
+  background-color: var(--text-color2);
+  opacity:1;
 }
 
 
