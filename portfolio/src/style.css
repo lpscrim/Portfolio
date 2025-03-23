@@ -155,41 +155,9 @@ h5 {
   }
 
 
-#aboutHome{
-  clip-path: polygon(
-    0 0, /* left top */
-    100% 0, /* right top */ 
-    100% 100%, /* right bottom */
-    0 92% /* left bottom */
-  );
-}
-#projectsHome {
-  clip-path: polygon(
-    0 0, /* left top */
-    100% 0, /* right top */ 
-    100% 94%, /* right bottom */
-    0 100% /* left bottom */
-  );
-}
-
-#contact {
-  clip-path: polygon(
-    0 0, /* left top */
-    100% 0, /* right top */ 
-    100% 100%, /* right bottom */
-    0 90% /* left bottom */
-  );
-}
 
 
 
-#heroBackground {
-  height:50%;
-}
-
-#scrollButton {
-  font-size: var(--text-xl);
-}
 
 .container {
   max-width: 80rem;
@@ -203,16 +171,6 @@ h5 {
   margin-right: auto;
   font-size: 1.35rem; 
 }
-
-
-.card {
-  max-width: 36rem;
-  border-radius: 0.25rem;
-  overflow: hidden;
-  background-color: var(--background-color);
-}
-
-
 
 
 @media (width < 85rem ) {
@@ -277,14 +235,12 @@ h5 {
 }
 
 @media (width < 36rem ) {
-  #name, #typeTest {
-    padding-left: 2rem;
-  } 
 
   .container {
-    max-width: 80%;
     font-size: 1rem;
   }
+
+
 
   h2 {
     font-size: var(--text-2xl);
@@ -307,14 +263,6 @@ h5 {
 }
 
 @media (width < 26rem ) {
-  #name, #typeTest {
-    padding-left: 2rem;
-  } 
-
-  .container {
-    max-width: 80%;
-    font-size: 1rem;
-  }
 
   h2 {
     font-size: var(--text-xl);

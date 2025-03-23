@@ -48,12 +48,18 @@ html, #projects {
   opacity: 1;
 }
 
-@media screen and (max-width: 480px) {
-  
+@media (width < 36rem )  {
+  .container {
+    max-width: 96%;
+  }
+
+
   .scroller li p {
     display: none;
   }
   
 }
+
+
 
 
