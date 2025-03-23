@@ -60,7 +60,11 @@
     );
   }
 
-@media (max-width: 768px) {
+  .container {
+    margin-top: 1.5rem;
+  }
+
+@media (width < 42rem )  {
     .listItem {
         padding: 0 2rem;
         margin: 2rem 2rem;
@@ -70,5 +74,11 @@
     }
     .listItem ul {
         font-size: 1rem;
+    }
+}
+
+@media (width < 36rem )  {
+    .container {
+      max-width: 96%;
     }
 }

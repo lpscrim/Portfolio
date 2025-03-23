@@ -39,6 +39,7 @@
     background-color: var(--background-color);
   }
 
+
   
   @media (width < 36rem ) {
     #name, #typeTest {

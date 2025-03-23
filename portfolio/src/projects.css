@@ -48,6 +48,9 @@ html, #projects {
   opacity: 1;
 }
 
+.container {
+  margin-top: 1rem;
+}
 @media (width < 36rem )  {
   .container {
     max-width: 96%;
