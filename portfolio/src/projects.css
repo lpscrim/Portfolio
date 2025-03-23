@@ -53,7 +53,7 @@ html, #projects {
 }
 @media (width < 36rem )  {
   .container {
-    max-width: 96%;
+    max-width: 95%;
   }
 
 
