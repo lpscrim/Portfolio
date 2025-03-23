@@ -56,9 +56,11 @@ html {
 }
 
 #scrollButton {
-  font-size: var(--text-2xl);
-  font-weight: 500;
+  font-size: var(--text-xl);
+  font-weight: 300;
+  opacity: 50%;
 }
+
 
 body {
   background-color: var(--background-color);
@@ -210,11 +212,8 @@ h5 {
 
   #scrollButton {
     font-size: var(--text-lg);
-  }  
-  .container {
-
-    font-size: 1.125rem;
   }
+  
 }
 @media (width < 53rem ) {
   h2 {

@@ -22,6 +22,7 @@ html, #projects {
 
 .scroller li {
   color: var(--text-color);
+  opacity: 50%;
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
@@ -39,7 +40,7 @@ html, #projects {
 .scroller li p {
   font-size: 1rem;
   letter-spacing: 0.5rem;
-  transition: opacity 4s ease-in-out;
+  transition: opacity 3s ease-in-out;
   opacity: 0;
 }
 
