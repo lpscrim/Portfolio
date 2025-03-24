@@ -1,6 +1,7 @@
   const typeElement = document.querySelector<HTMLDivElement>('#typeTest')!;
   const typeOriginal = typeElement.innerHTML.trim();
   const texts = [
+    typeOriginal,
     'Architectural Engineer',
     'English Teacher',
     'Chef de Cuisine',
@@ -19,7 +20,7 @@
         if (i === textArray.length - 1 && callback) {
           setTimeout(callback, 1000); 
         }
-      }, 35 * i);
+      }, 25 * i);
     });
   }
   
@@ -32,7 +33,7 @@
         if (textArray.length === 0 && callback) {
           setTimeout(callback, 500); 
         }
-      }, 20 * i);
+      }, 15 * i);
     });
   }
   
