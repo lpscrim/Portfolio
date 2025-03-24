@@ -8,7 +8,7 @@ html {
 :root {
   font-family:  "Anek Devanagari", Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 350;
+  font-weight: 300;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -79,6 +79,10 @@ body {
   z-index: 999; 
   background-color: var(--background-color); 
   top: 0; 
+}
+
+.header a, .header ul {
+  font-weight: 550;
 }
 
 header a:hover {
@@ -159,8 +163,8 @@ h5 {
   font-size: 1.125rem; 
   z-index: 50; 
   color: var(--text-color); 
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
   border-radius: 0.25rem;
   transition: filter 0.2s ease-in-out;
   cursor: pointer;
