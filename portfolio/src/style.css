@@ -212,7 +212,7 @@ h5 {
   
 
   .container {
-    max-width: 80%;
+    max-width: 87%;
     font-size: 1.1rem;
   }
   }
@@ -234,6 +234,11 @@ h5 {
   .header {
     padding-right: 2.5rem;
   }
+
+  .container {
+    max-width: 80%;
+    font-size: 1.1rem;
+  }
 }
 
 @media (width < 48rem ) {
@@ -241,6 +246,8 @@ h5 {
     padding-right: 1.25rem;
     padding-left: 2rem;
   }
+
+ 
 }
 
 @media (width < 53rem ) {
