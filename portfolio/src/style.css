@@ -48,11 +48,11 @@ html {
 }
 
 :root.blue {
-  --text-color: #130f31;
-  --text-color2: #182024;
-  --background-color: #cbdee8;
+  --text-color: #20156e;
+  --text-color2: #ffa857;
+  --background-color: #9378bd;
   --button-color: #dee6e9;
-  --accent-color: #78a6ba;
+  --accent-color: #cb99b7;
 }
 
 #scrollButton {
