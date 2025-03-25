@@ -78,8 +78,8 @@ nav li a:hover {
 }
 
 #logoHero {
-  -webkit-animation: fadeout 1.5s linear forwards;
-  animation: fadeout 1.5s linear forwards;
+  -webkit-animation: fadeout 2s linear forwards;
+  animation: fadeout 2s linear forwards;
   opacity: 1;
 }
 
@@ -94,7 +94,7 @@ nav li a:hover {
   @keyframes slideUp {
     from {
       transform: translateY(100%);
-      opacity: 0;
+      opacity: 0.25;
     }
     to {
       transform: translateY(0);

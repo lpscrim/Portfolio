@@ -213,7 +213,7 @@ h5 {
 
   .container {
     max-width: 87%;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
   }
 
@@ -237,7 +237,6 @@ h5 {
 
   .container {
     max-width: 80%;
-    font-size: 1.1rem;
   }
 }
 
@@ -265,21 +264,9 @@ h5 {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
-
-  .container {
-
-    font-size: 1rem;
-  }
 }
 
 @media (width < 36rem ) {
-
-  .container {
-    font-size: 1rem;
-  }
-
-
-
   h2 {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
