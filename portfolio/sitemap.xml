@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://lampman.netlify.app/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://lampman.netlify.app/about</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://lampman.netlify.app/projects</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://lampman.netlify.app/#contact</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Individual Project Links -->
+  <url>
+    <loc>https://lampman.netlify.app/projects#proj2</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lampman.netlify.app/projects#proj3</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lampman.netlify.app/projects#proj4</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- External Links -->
+  <url>
+    <loc>https://breadddit.netlify.app/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lampman.netlify.app/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://spotifystealer.netlify.app/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Social Media Links -->
+  <url>
+    <loc>https://www.instagram.com/daydreamteam/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://wa.me/+447487732282</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://github.com/lpscrim</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.linkedin.com/in/lewis-scrimgeour-13389b243/</loc>
+    <lastmod>2023-10-01</lastmod>
+    <priority>0.3</priority>
+  </url>
+</urlset>

@@ -1,0 +1,6 @@
+
+User-agent: *
+Disallow:
+
+
+Sitemap: https://lampman.netlify.app/sitemap.xml
