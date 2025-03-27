@@ -1,14 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Anek Devanagari';
-  font-style: normal;
-  font-weight: 100 800;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(/public/AnekDevanagari-VariableFont_wdth\,wght.ttf) format('ttf');
-}
-
 html {
   scroll-behavior: smooth;
 }
