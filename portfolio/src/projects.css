@@ -14,17 +14,23 @@ html, #projects {
 
 
 .scroller {
-  list-style: disc;
+  list-style: none;
   direction: rtl;
+}
+
+.scroller a {
+ display: flex;
+ flex-direction: row;
 }
 
 .scroller li {
   color: var(--text-color);
   opacity: 50%;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  line-height: 1.8rem;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
-  margin: .5rem 0; 
+  margin: 1rem 0; 
 }
 
 .scroller li:hover {
@@ -40,6 +46,7 @@ html, #projects {
   letter-spacing: 0.5rem;
   transition: opacity 3s ease-in-out;
   opacity: 0;
+  padding-right: 0.5rem;
 }
 
 .scroller li:hover p {
