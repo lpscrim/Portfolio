@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Anek Devanagari';
+  font-style: normal;
+  font-weight: 100 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=jVyd7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlnWMj6IMwmELROZYC_P9WDno3ubDyA4z0hdeRVTk59KGgmjBKMY69ZAxU_S5-RWS_NsQFfTiohv8fR68ofweo9oNCwV_52oTr6wxJwA&skey=9455048a98a27cad&v=v14) format('woff2');
+}
+
 html {
   scroll-behavior: smooth;
 }
