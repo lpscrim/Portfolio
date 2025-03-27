@@ -9,7 +9,7 @@
     font-weight: 400;
     margin-right: 1rem;
 }
-.listHeader a {
+.listHeader .job {
     color: var(--text-color2);
     cursor: pointer;
 }
