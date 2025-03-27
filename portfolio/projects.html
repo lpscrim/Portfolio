@@ -85,22 +85,22 @@
         <div id="scrollMenu" class="fixed sm:right-15 right-10 z-999 top-[40svh]">
             <ul class="scroller">
                 <li>
-                    <a href=#proj1>
+                    <a href=#proj1 aria-label="scroll to first project section">
                         <p>portfolio</p>
                     </a>
                 </li>
                 <li>
-                    <a href=#proj2>
+                    <a href=#proj2 aria-label="scroll to second project section">
                         <p>lampman</p>
                     </a>
                 </li>
                 <li>
-                    <a href=#proj3>
+                    <a href=#proj3 aria-label="scroll to third project section">
                         <p>spotify</p>
                     </a>
                 </li>
                 <li>
-                    <a href=#proj4>
+                    <a href=#proj4 aria-label="scroll to fourth project section">
                         <p>breaddit</p>
                     </a>
                 </li>
@@ -472,14 +472,14 @@
             <div id="footerLinks" class="flex items-center">
                 <button id="themeToggle" aria-label="Change theme" class="text-(--text-color) hover:text-(--background-color) cursor-pointer"
                     onclick="setTheme()">
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                         fill="none" viewBox="0 0 22 22">
                         <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
                             d="M20 6H10m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4m16 6h-2m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4m16 6H10m0 0a2 2 0 1 0-4 0m4 0a2 2 0 1 1-4 0m0 0H4" />
                     </svg>
                 </button>
                 <a  href="https://www.instagram.com/daydreamteam/" target="_blank" id="instagram"  aria-label="Link to author's instagram profile">
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                         fill="none" viewBox="0 0 22 22">
                         <path fill="currentColor" fill-rule="evenodd"
                             d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
@@ -513,7 +513,7 @@
                         <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                     </svg>
                 </a>
-                <button id="phone" aria-label="Display phone number" aria-label="Display phone number" aria-label="Display phone number" class="pl-4 text-(--text-color) cursor-pointer hover:text-(--background-color)"
+                <button id="phone" aria-label="Display phone number"  class="pl-4 text-(--text-color) cursor-pointer hover:text-(--background-color)"
                     onclick="displayNumber()">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
                         fill="currentColor" viewBox="0 0 22 22">
@@ -525,7 +525,7 @@
                     <p>&emsp;+447487732282</p>
                 </div>
             </div>
-            <p id="tm" class="relative pt-1 pr-10 sm:flex hidden">© 2025 Lpscrim</p>
+            <p id="tm" class="relative pt-3 font-bold pr-10 sm:flex hidden">© 2025 Lpscrim</p>
         </div>
     </footer>
     <script type="module" src="/src/theme.ts"></script>
