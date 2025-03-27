@@ -16,6 +16,10 @@
     );
   }
 
+  #techIcons svg:hover {
+    color: var(--text-color2);
+  }
+
   #heroBackground {
     height:50%;
   }
