@@ -118,7 +118,8 @@ footer {
 
 footer a {
   color: var(--text-color);
-  padding-left: 1.1rem;
+  padding-left: 0.55rem;
+  padding-right: 0.55rem;
   cursor: pointer;
 }
 
