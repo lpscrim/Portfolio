@@ -1,0 +1,42 @@
+{
+    "name": "Lpscrim Portfolio",
+    "short_name": "Lpscrim",
+    "description": "Portfolio of Lewis Scrimgeour, a self-taught Front-End Web Developer and Designer. Explore projects, skills, and contact information for creating meaningful and visually compelling digital experiences.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/public/logo.png",
+        "sizes": "352x352",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "sizes": "502.8571428571429x502.8571428571429",
+        "src": "/public/logo.png",
+        "type": "image/png"
+      }
+      
+
+    ],
+    "lang": "en",
+    "orientation": "portrait",
+    "scope": "/",
+    "categories": ["portfolio", "web development", "design"],
+    "screenshots": [
+      {
+        "src": "/public/prof1.png",
+        "sizes": "1557x907",
+        "type": "image/png",
+        "label": "Homepage"
+      },
+      {
+        "src": "/public/prof3.png",
+        "sizes": "1561x902",
+        "type": "image/png",
+        "label": "Projects Page"
+      }
+    ]
+  }
