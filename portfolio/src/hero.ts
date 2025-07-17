@@ -16,7 +16,7 @@
       setTimeout(() => {
         element.innerHTML += letter;
         if (i === textArray.length - 1 && callback) {
-          setTimeout(callback, 1000); 
+          setTimeout(callback, 900); 
         }
       }, 25 * i);
     });
@@ -29,7 +29,7 @@
         textArray.pop();
         element.innerHTML = textArray.join('');
         if (textArray.length === 0 && callback) {
-          setTimeout(callback, 500); 
+          setTimeout(callback, 700); 
         }
       }, 15 * i);
     });
