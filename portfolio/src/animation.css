@@ -33,7 +33,7 @@
   }
 
   #name {
-    animation: fade-in-bottom 0.5s ease-in-out both;
+    animation: fade-in 1.5s ease-in-out both;
   }
 
   .appear {
@@ -94,10 +94,19 @@ nav li a:hover {
   @keyframes slideUp {
     from {
       transform: translateY(100%);
-      opacity: 0.25;
+      opacity: 0;
     }
     to {
       transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+    @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
       opacity: 1;
     }
   }
