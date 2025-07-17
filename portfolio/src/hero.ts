@@ -2,10 +2,11 @@
   const typeOriginal = typeElement.innerHTML.trim();
   const texts = [
     typeOriginal,
-    'Designer',
     'Teacher',
     'Photographer',
     'Artist',
+    'Designer',
+    'Engineer',
     typeOriginal
   ];
 
