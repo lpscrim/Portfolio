@@ -8,14 +8,14 @@
     "theme_color": "#000000",
     "icons": [
       {
-        "src": "/public/logo.png",
+        "src": "/logo.png",
         "sizes": "352x352",
         "type": "image/png"
       },
       {
         "purpose": "maskable",
         "sizes": "502.8571428571429x502.8571428571429",
-        "src": "/public/logo.png",
+        "src": "/logo.png",
         "type": "image/png"
       }
       
@@ -27,13 +27,13 @@
     "categories": ["portfolio", "web development", "design"],
     "screenshots": [
       {
-        "src": "/public/prof1.png",
+        "src": "/prof1.png",
         "sizes": "1557x907",
         "type": "image/png",
         "label": "Homepage"
       },
       {
-        "src": "/public/prof3.png",
+        "src": "/prof3.png",
         "sizes": "1561x902",
         "type": "image/png",
         "label": "Projects Page"

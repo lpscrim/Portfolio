@@ -1,6 +1,6 @@
 export const setTheme = () => {
   const root = document.getElementsByTagName('html')[0];
-  let newTheme = 'dark';
+  let newTheme = 'black';
 
   if (root.className === 'light') {
     newTheme = 'dark';
@@ -23,7 +23,7 @@ const applyStoredTheme = () => {
   if (storedTheme) {
     document.getElementsByTagName('html')[0].className = storedTheme;
   } else {
-    document.getElementsByTagName('html')[0].className = 'light';
+    document.getElementsByTagName('html')[0].className = 'black';
   }
 };
 
