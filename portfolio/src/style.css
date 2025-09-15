@@ -31,7 +31,7 @@ html {
   --accent-color: #dfb38a;
 }
 
-:root, :root.dark {
+:root.dark {
   --text-color: #f2faef;
   --text-color2: #f3c18f;
   --background-color: #011936;
@@ -39,7 +39,7 @@ html {
   --accent-color: #72a5a2;
 }
 
-:root.black {
+:root, :root.black {
   --text-color: #FFFFFF;
   --text-color2: #dbdada;
   --background-color: #141414;

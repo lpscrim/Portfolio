@@ -9,16 +9,6 @@
     content="Portfolio of Lewis Scrimgeour, a self-taught Front-End Web Developer and Designer. Explore projects, skills, and contact information for creating meaningful and visually compelling digital experiences.">
   <link rel="apple-touch-icon" href="/logo.svg" />
   <link rel="manifest" href="/manifest.json">
-
-  <script>
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme) {
-      document.documentElement.className = storedTheme;
-    } else {
-      document.documentElement.className = 'light';
-    }
-  </script>
-
   <link rel="icon" type="image/svg" href="/logo.svg" />
   <link rel="stylesheet" href="/src/style.css" />
   <link rel="stylesheet" href="/src/index.css" />
@@ -26,6 +16,11 @@
   <link rel="preload" href="/fonts/font.woff2" as="font" type="font/woff2" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lpscrim</title>
+
+   <script>
+  const storedTheme = localStorage.getItem('theme');
+  document.documentElement.className = storedTheme || 'black';
+</script>
 </head>
 
 <body class="w-full">
