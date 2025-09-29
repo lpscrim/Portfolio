@@ -30,6 +30,7 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
  :root.light {
@@ -153,6 +154,8 @@ h2 {
   font-size: var(--text-7xl);
   line-height: var(--tw-leading, var(--text-4xl--line-height) );
   font-weight: 500;
+  
+  
 }
 h3 {
   font-size: var(--text-4xl);
@@ -169,6 +172,17 @@ h4 {
 h5 {
   font-size: var(--text-2xl);
   line-height: var(--tw-leading, var(--text-xl--line-height) );
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: lowercase;
+  font-family: "Ballmer Architype Regular", Arial, sans-serif;
+  font-weight: 600;
+}
+label {
+  text-transform: lowercase;
+  font-family: "Ballmer Architype Regular", Arial, sans-serif;
+  font-weight: 600;
 }
 
 #number, #number.off {
@@ -190,6 +204,8 @@ h5 {
   border-radius: 0.25rem;
   transition: filter 0.2s ease-in-out;
   cursor: pointer;
+  text-transform: lowercase;
+  font-family: "Ballmer Architype Regular", Arial, sans-serif;
 }
   
   .button:hover {
