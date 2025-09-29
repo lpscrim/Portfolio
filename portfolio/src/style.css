@@ -13,6 +13,15 @@ html {
   src: url(/fonts/font.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: 'Ballmer ArchiType Regular';
+  font-style: normal;
+  font-weight: 100 500 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts/Ballmer.ttf) format('truetype');
+}
+
 :root {
   font-family:  "Anek Devanagari", Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -129,6 +138,10 @@ footer a {
   padding-left: 0.55rem;
   padding-right: 0.55rem;
   cursor: pointer;
+}
+
+.alt {
+  font-family: 'Ballmer ArchiType Regular', Arial, sans-serif;
 }
 
 h1 {
