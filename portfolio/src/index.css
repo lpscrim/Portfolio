@@ -43,3 +43,8 @@
     }
   }  
 
+  @media (min-width: 1280px) {
+    .card {
+      width: 33%;
+    }
+  }
