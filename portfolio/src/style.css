@@ -226,8 +226,7 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  min-height: 100%; 
+  justify-content: flex-start; 
   margin-left: auto;
   margin-right: auto;
   font-size: 1.35rem; 
