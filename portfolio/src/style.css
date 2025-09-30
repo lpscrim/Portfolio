@@ -248,6 +248,10 @@ label {
     line-height: var(--tw-leading, var(--text-xl--line-height) );
   }
   
+  .header {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 
   .container {
     max-width: 87%;
@@ -270,7 +274,7 @@ label {
   }
 
   .header {
-    padding-right: 2.5rem;
+    padding-right: 0rem;
   }
 
   .container {
@@ -280,7 +284,7 @@ label {
 
 @media (width < 48rem ) {
   .header {
-    padding-right: 1.25rem;
+    padding-right: 0rem;
   }
 
  
