@@ -32,6 +32,17 @@
     flex-wrap: wrap;
 }
 
+#aboutServices .listItem ul {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+#aboutServices .listItem ul li {
+    width: 45%; 
+
+}
+
 .listBorder {
     align-self: left;
     width: 100%;
@@ -39,7 +50,7 @@
     border-bottom: 0.15rem dotted var(--accent-color);
 }
 
-#aboutSkills h5, #aboutNext h5 {
+#aboutExperience h5, #aboutHistory h5 {
     color: var(--text-color2);
 }
 
