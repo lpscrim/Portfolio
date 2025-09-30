@@ -281,13 +281,7 @@ label {
   }
 }
 
-@media (width < 48rem ) {
-  .header {
-    padding-right: 0rem;
-  }
 
- 
-}
 
 @media (width < 53rem ) {
   h2 {
@@ -295,10 +289,15 @@ label {
     line-height: var(--tw-leading, var(--text-4xl--line-height) );
   }
 
-
-
 }
 
+@media (width < 48rem ) {
+  .header {
+    padding-right: 0rem;
+  }
+
+ 
+}
 @media (width < 42rem ) {
   h2 {
     font-size: var(--text-3xl);
