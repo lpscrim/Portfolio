@@ -93,6 +93,11 @@
     .listItem ul {
         font-size: 1rem;
     }
+
+    #aboutServices .listItem ul li {
+    width: 60%; 
+
+}
 }
 
 @media (width < 36rem )  {
