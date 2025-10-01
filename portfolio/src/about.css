@@ -72,6 +72,11 @@
     margin-top: 1.5rem;
   }
 
+  
+  #techIcons svg:hover {
+    color: var(--text-color2);
+  }
+
 @media (width < 62rem)  {
     .listItem {
         padding: 0 2rem;
